@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "611434644270",
+    "firebase_url": "https://monikers-43e49.firebaseio.com",
+    "project_id": "monikers-43e49",
+    "storage_bucket": "monikers-43e49.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611434644270:android:001577a25a8905d8",
+        "android_client_info": {
+          "package_name": "stratford.monikers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611434644270-1qu5lc8bpngdc8g5jje0433cj8mv2lje.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "stratford.monikers",
+            "certificate_hash": "9b1a9185d582ed74d027deec5d9ae37957ffd0de"
+          }
+        },
+        {
+          "client_id": "611434644270-gemehv3mni865m03d6ecbfpukkb3r20l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0SxVl6OLvNIjDJ2LjHgVOoW81KaCkrvY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611434644270-gemehv3mni865m03d6ecbfpukkb3r20l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

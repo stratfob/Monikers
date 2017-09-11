@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Monikers</string>
+    <string name="newGameButton">New Game</string>
+    <string name="joinGameButton">Join Game</string>
+    <string name="rulesButton">Rules</string>
+    <string name="enterGameCode">Enter game code to join:</string>
+    <string name="newGameCode">A new game will be created using this game code:</string>
+    <string name="createGame">Create Game</string>
+    <string name="joinBlueButton">Join Blue Team</string>
+    <string name="joinRedButton">Join Red Team</string>
+    <string name="enterDisplayName">Enter display name:</string>
+    <string name="redTeam">Red Team</string>
+    <string name="blueTeam">Blue Team</string>
+    <string name="changeTeam">Change Team</string>
+    <string name="startGame">Start Game</string>
+</resources>
