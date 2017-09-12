@@ -40,6 +40,9 @@ public class gameLobby extends AppCompatActivity {
         myTeam = intent.getStringExtra("team");
         playerRef = gameRef.child(passedKey).child("players");
 
+        playerRef.child(myUsername).child("name").setValue(getIntent().getStringExtra("name"));
+        playerRef.child(myUsername).child("team").setValue(getIntent().getStringExtra("team"));
+
         redTeam = new ArrayList<String>();
         blueTeam = new ArrayList<String>();
     }
@@ -62,8 +65,7 @@ public class gameLobby extends AppCompatActivity {
                 }
                 else {
 
-                    playerRef.child(myUsername).child("name").setValue(getIntent().getStringExtra("name"));
-                    playerRef.child(myUsername).child("team").setValue(getIntent().getStringExtra("team"));
+
 
                     redTeam = new ArrayList<String>();
                     blueTeam = new ArrayList<String>();
