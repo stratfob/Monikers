@@ -3,7 +3,9 @@ package stratford.monikers;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -27,7 +29,12 @@ public class newGame extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new_game);
-
+        Button red = (Button)findViewById(R.id.joinRed);
+        Button blue = (Button)findViewById(R.id.joinBlue);
+        Log.i("tag","h: "+red.getHeight());
+        Log.i("tag","w: "+red.getWidth());
+        red.setHeight(red.getWidth());
+        blue.setHeight(blue.getWidth());
         codeView = (TextView) findViewById(R.id.generatedCodeTextView);
         key = myRef.push().getKey();
         codeView.setText(key);
