@@ -3,7 +3,6 @@ package stratford.monikers;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -21,6 +20,7 @@ public class gameLobby extends AppCompatActivity {
     FirebaseDatabase database = FirebaseDatabase.getInstance();
     DatabaseReference gameRef = database.getReference("game");
     DatabaseReference playerRef;
+    DatabaseReference thisGameRef;
     String passedKey;
     String myUsername;
     String myTeam;
@@ -36,15 +36,20 @@ public class gameLobby extends AppCompatActivity {
         Intent intent = getIntent();
         passedKey = intent.getStringExtra("key");
 
+        thisGameRef = gameRef.child(passedKey);
+
         myUsername = intent.getStringExtra("name");
         myTeam = intent.getStringExtra("team");
-        playerRef = gameRef.child(passedKey).child("players");
+        playerRef = thisGameRef.child("players");
 
-        playerRef.child(myUsername).child("name").setValue(getIntent().getStringExtra("name"));
+        if(getIntent().getBooleanExtra("isCreator",false)){
+            thisGameRef.child("stage").setValue("lobby");
+        }
+
         playerRef.child(myUsername).child("team").setValue(getIntent().getStringExtra("team"));
 
-        redTeam = new ArrayList<String>();
-        blueTeam = new ArrayList<String>();
+        redTeam = new ArrayList<>();
+        blueTeam = new ArrayList<>();
     }
 
     @Override
@@ -52,28 +57,33 @@ public class gameLobby extends AppCompatActivity {
         super.onStart();
 
         // Read from the database
-        playerRef.addValueEventListener(new ValueEventListener() {
+        thisGameRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                if(dataSnapshot.getValue()==null && !getIntent().getBooleanExtra("isCreator",false)){
+                if(dataSnapshot.child("stage").getValue()==null && !getIntent().getBooleanExtra("isCreator",false)){
                     Toast.makeText(gameLobby.this, "Game not found", Toast.LENGTH_SHORT).show();
+                    thisGameRef.removeValue();
                     finish();
                 }
                 else if(redTeam.size()>4 && blueTeam.size()>4){
                     Toast.makeText(gameLobby.this, "Game is full", Toast.LENGTH_SHORT).show();
                     finish();
                 }
+                else if(dataSnapshot.child("stage").getValue().equals("choosing")){
+                    Intent intent = new Intent(gameLobby.this,chooseCardsActivity.class);
+                    intent.putExtra("key",passedKey);
+                    intent.putExtra("username",myUsername);
+                    startActivity(intent);
+                }
                 else {
-
-
-
-                    redTeam = new ArrayList<String>();
-                    blueTeam = new ArrayList<String>();
-                    for (DataSnapshot playerSnap : dataSnapshot.getChildren()) {
+                    redTeam = new ArrayList<>();
+                    blueTeam = new ArrayList<>();
+                    DataSnapshot playersSnapshot = dataSnapshot.child("players");
+                    for (DataSnapshot playerSnap : playersSnapshot.getChildren()) {
                         if (playerSnap.child("team").getValue().equals("red")) {
-                            redTeam.add(playerSnap.child("name").getValue().toString());
+                            redTeam.add(playerSnap.getKey());
                         } else {
-                            blueTeam.add(playerSnap.child("name").getValue().toString());
+                            blueTeam.add(playerSnap.getKey());
                         }
                     }
                     TextView slot9 = (TextView) findViewById(R.id.slot9);
@@ -136,10 +146,11 @@ public class gameLobby extends AppCompatActivity {
 
     @Override
     protected void onStop() {
+        //TODO
         super.onStop();
-        if(getIntent().getBooleanExtra("isCreator",false)){
-            gameRef.child(passedKey).removeValue();
-        }
+//        if(getIntent().getBooleanExtra("isCreator",false)){
+//            gameRef.child(passedKey).removeValue();
+//        }
     }
 
     public void onClickChangeTeams(View view){
@@ -154,9 +165,9 @@ public class gameLobby extends AppCompatActivity {
     }
 
     public void onClickStart(View view){
+        //if it is the creator of the game (false is the default)
         if (getIntent().getBooleanExtra("isCreator",false)){
-            //TODO
-            Toast.makeText(this, "Game start pressed", Toast.LENGTH_SHORT).show();
+            gameRef.child(passedKey).child("stage").setValue("choosing");
         }
         else{
             Toast.makeText(this, "Only the game creator can start the game.", Toast.LENGTH_SHORT).show();

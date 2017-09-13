@@ -67,7 +67,6 @@ public class newGame extends AppCompatActivity {
         EditText editText = (EditText) findViewById(R.id.usernameInput);
         String username = editText.getText().toString();
 
-        //Player player = new Player(username, "blue");
         int[] deck = generateDeck();
         Game game = new Game(deck);
 
