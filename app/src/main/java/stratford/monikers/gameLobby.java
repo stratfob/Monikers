@@ -1,8 +1,8 @@
 package stratford.monikers;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -14,9 +14,16 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class gameLobby extends AppCompatActivity {
 
+    private final int MAX_TEAM_SIZE = 5;
+    private final List<Integer> RED_TEAM_IDS =
+            Arrays.asList(R.id.red0, R.id.red1, R.id.red2, R.id.red3, R.id.red4);
+    private final List<Integer> BLUE_TEAM_IDS =
+            Arrays.asList(R.id.blue0, R.id.blue1, R.id.blue2, R.id.blue3, R.id.blue4);
     FirebaseDatabase database = FirebaseDatabase.getInstance();
     DatabaseReference gameRef = database.getReference("game");
     DatabaseReference playerRef;
@@ -24,7 +31,6 @@ public class gameLobby extends AppCompatActivity {
     String passedKey;
     String myUsername;
     String myTeam;
-
     ArrayList<String> redTeam;
     ArrayList<String> blueTeam;
 
@@ -86,54 +92,21 @@ public class gameLobby extends AppCompatActivity {
                             blueTeam.add(playerSnap.getKey());
                         }
                     }
-                    TextView slot9 = (TextView) findViewById(R.id.slot9);
-                    slot9.setText("");
-                    TextView slot8 = (TextView) findViewById(R.id.slot8);
-                    slot8.setText("");
-                    TextView slot7 = (TextView) findViewById(R.id.slot7);
-                    slot7.setText("");
-                    TextView slot6 = (TextView) findViewById(R.id.slot6);
-                    slot6.setText("");
-                    TextView slot5 = (TextView) findViewById(R.id.slot5);
-                    slot5.setText("");
-                    TextView slot4 = (TextView) findViewById(R.id.slot4);
-                    slot4.setText("");
-                    TextView slot3 = (TextView) findViewById(R.id.slot3);
-                    slot3.setText("");
-                    TextView slot2 = (TextView) findViewById(R.id.slot2);
-                    slot2.setText("");
-                    TextView slot1 = (TextView) findViewById(R.id.slot1);
-                    slot1.setText("");
-                    TextView slot0 = (TextView) findViewById(R.id.slot0);
-                    slot0.setText("");
-
-                    switch (redTeam.size()) {
-                        case 5:
-                            slot8.setText(redTeam.get(4));
-                        case 4:
-                            slot6.setText(redTeam.get(3));
-                        case 3:
-                            slot4.setText(redTeam.get(2));
-                        case 2:
-                            slot2.setText(redTeam.get(1));
-                        case 1:
-                            slot0.setText(redTeam.get(0));
-                            break;
-                        default:
+                    for (int index = 0; index < MAX_TEAM_SIZE; index++) {
+                        TextView textView = (TextView) findViewById(RED_TEAM_IDS.get(index));
+                        if (index >= redTeam.size()) {
+                            textView.setText("");
+                        } else {
+                            textView.setText(redTeam.get(index));
+                        }
                     }
-                    switch (blueTeam.size()) {
-                        case 5:
-                            slot9.setText(blueTeam.get(4));
-                        case 4:
-                            slot7.setText(blueTeam.get(3));
-                        case 3:
-                            slot5.setText(blueTeam.get(2));
-                        case 2:
-                            slot3.setText(blueTeam.get(1));
-                        case 1:
-                            slot1.setText(blueTeam.get(0));
-                            break;
-                        default:
+                    for (int index = 0; index < MAX_TEAM_SIZE; index++) {
+                        TextView textView = (TextView) findViewById(BLUE_TEAM_IDS.get(index));
+                        if (index >= blueTeam.size()) {
+                            textView.setText("");
+                        } else {
+                            textView.setText(blueTeam.get(index));
+                        }
                     }
                 }
             }
@@ -154,11 +127,10 @@ public class gameLobby extends AppCompatActivity {
     }
 
     public void onClickChangeTeams(View view){
-        if(myTeam.equals("blue")&&redTeam.size()<5) {
+        if (myTeam.equals("blue") && redTeam.size() < MAX_TEAM_SIZE) {
             playerRef.child(myUsername).child("team").setValue("red");
             myTeam="red";
-        }
-        else if(blueTeam.size()<5){
+        } else if (blueTeam.size() < MAX_TEAM_SIZE) {
             playerRef.child(myUsername).child("team").setValue("blue");
             myTeam="blue";
         }
