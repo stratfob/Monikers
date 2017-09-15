@@ -1,9 +1,8 @@
-package stratford.monikers;
+package stratford.monikers.Activities;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -13,9 +12,9 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import java.util.ArrayList;
+import stratford.monikers.R;
 
-public class chooseCardsActivity extends AppCompatActivity {
+public class ChooseCardsAcitivity extends AppCompatActivity {
 
     FirebaseDatabase database = FirebaseDatabase.getInstance();
     DatabaseReference gameRef;
@@ -75,7 +74,7 @@ public class chooseCardsActivity extends AppCompatActivity {
                             dealtCards+=cards[i*8 + j] + " ";
                         }
                         text.setText(dealtCards);
-                        Toast.makeText(chooseCardsActivity.this, "You are player "+i, Toast.LENGTH_SHORT).show();
+                        Toast.makeText(ChooseCardsAcitivity.this, "You are player " + i, Toast.LENGTH_SHORT).show();
                         break;
                     }
                     i++;
