@@ -36,7 +36,20 @@ public class newGame extends AppCompatActivity {
         red.setHeight(red.getWidth());
         blue.setHeight(blue.getWidth());
         codeView = (TextView) findViewById(R.id.generatedCodeTextView);
-        key = myRef.push().getKey();
+        key = newKey();
+        myRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                while(dataSnapshot.child(key).exists()){
+                    key = newKey();
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
         codeView.setText(key);
     }
 
@@ -49,7 +62,6 @@ public class newGame extends AppCompatActivity {
         EditText editText = (EditText) findViewById(R.id.usernameInput);
         String username = editText.getText().toString();
 
-        //Player player = new Player(username, "red");
         int[] deck = generateDeck();
         Game game = new Game(deck);
 
@@ -93,5 +105,15 @@ public class newGame extends AppCompatActivity {
             deck[rand] = temp;
         }
         return deck;
+    }
+
+    public static String newKey(){
+        String key = "";
+        for(int i = 0; i<4; i++){
+            int rand = (int)Math.floor(Math.random()*26);
+            char letter = (char)('A' + rand);
+            key += letter;
+        }
+        return key;
     }
 }
