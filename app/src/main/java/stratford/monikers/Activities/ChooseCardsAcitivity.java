@@ -3,6 +3,7 @@ package stratford.monikers.Activities;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -26,6 +27,8 @@ public class ChooseCardsAcitivity extends AppCompatActivity {
     int[] myCards;
     String[] cardDetails;
 
+    int cardCurrentlyViewing;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,6 +43,7 @@ public class ChooseCardsAcitivity extends AppCompatActivity {
         cards = new int[476];
         myCards = new int[8];
         cardDetails = new String[4];
+        cardCurrentlyViewing = 0;
 
         cardRef.addValueEventListener(new ValueEventListener() {
             @Override
@@ -69,14 +73,7 @@ public class ChooseCardsAcitivity extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 int i = 0;
-                TextView name = (TextView) findViewById(R.id.cardName);
-                name.setText("");
-                TextView description = (TextView) findViewById(R.id.cardDescription);
-                description.setText("");
-                TextView category = (TextView) findViewById(R.id.cardCategory);
-                category.setText("");
-                TextView points = (TextView) findViewById(R.id.cardPoints);
-                points.setText("");
+
 
                 for (DataSnapshot playerSnap : dataSnapshot.getChildren()) {
                     if(playerSnap.getKey().equals(myUsername)){
@@ -86,13 +83,8 @@ public class ChooseCardsAcitivity extends AppCompatActivity {
 //                        }
                         System.arraycopy(cards,i*8,myCards,0,8);
 
-                        int cardId = ChooseCardsAcitivity.this.getResources().getIdentifier("card" + myCards[i],"array",ChooseCardsAcitivity.this.getPackageName());
-                        cardDetails = getResources().getStringArray(cardId);
-                        name.setText(cardDetails[0]);
-                        description.setText(cardDetails[1]);
-                        category.setText(cardDetails[2]);
-                        points.setText(cardDetails[3]);
-                        Toast.makeText(ChooseCardsAcitivity.this, "Card number " + myCards[i], Toast.LENGTH_SHORT).show();
+                        setCardDetails();
+//                        Toast.makeText(ChooseCardsAcitivity.this, "Card number " + myCards[i], Toast.LENGTH_SHORT).show();
                         break;
                     }
                     i++;
@@ -103,5 +95,32 @@ public class ChooseCardsAcitivity extends AppCompatActivity {
             public void onCancelled(DatabaseError error) {
             }
         });
+    }
+
+    public void onClickNext(View view){
+        cardCurrentlyViewing = (cardCurrentlyViewing+1)%8;
+        setCardDetails();
+    }
+
+    public void onClickPrevious(View view){
+        cardCurrentlyViewing--;
+        if(cardCurrentlyViewing<0){
+            cardCurrentlyViewing=7;
+        }
+        setCardDetails();
+    }
+
+    public void setCardDetails(){
+        TextView name = (TextView) findViewById(R.id.cardName);
+        TextView description = (TextView) findViewById(R.id.cardDescription);
+        TextView category = (TextView) findViewById(R.id.cardCategory);
+        TextView points = (TextView) findViewById(R.id.cardPoints);
+
+        int cardId = ChooseCardsAcitivity.this.getResources().getIdentifier("card" + myCards[cardCurrentlyViewing],"array",ChooseCardsAcitivity.this.getPackageName());
+        cardDetails = getResources().getStringArray(cardId);
+        name.setText(cardDetails[0]);
+        description.setText(cardDetails[1]);
+        category.setText(cardDetails[2]);
+        points.setText(cardDetails[3]);
     }
 }

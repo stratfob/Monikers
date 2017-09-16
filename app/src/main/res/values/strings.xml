@@ -14,4 +14,6 @@
     <string name="blueTeam">Blue Team</string>
     <string name="changeTeam">Change Team</string>
     <string name="startGame">Start Game</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
 </resources>

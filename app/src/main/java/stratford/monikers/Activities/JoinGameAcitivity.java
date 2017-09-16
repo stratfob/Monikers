@@ -29,7 +29,7 @@ public class JoinGameAcitivity extends AppCompatActivity {
 
     public void onClickJoinRed(View view){
         EditText editText = (EditText) findViewById(R.id.gameCode);
-        String code = editText.getText().toString();
+        String code = editText.getText().toString().toUpperCase();
 
         editText = (EditText) findViewById(R.id.usernameInput);
         String username = editText.getText().toString();
@@ -44,7 +44,7 @@ public class JoinGameAcitivity extends AppCompatActivity {
 
     public void onClickJoinBlue(View view){
         EditText editText = (EditText) findViewById(R.id.gameCode);
-        String code = editText.getText().toString();
+        String code = editText.getText().toString().toUpperCase();
 
         editText = (EditText) findViewById(R.id.usernameInput);
         String username = editText.getText().toString();
