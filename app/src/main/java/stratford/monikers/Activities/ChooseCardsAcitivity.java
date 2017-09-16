@@ -23,6 +23,8 @@ public class ChooseCardsAcitivity extends AppCompatActivity {
     String passedKey;
     String myUsername;
     int[] cards;
+    int[] myCards;
+    String[] cardDetails;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +37,9 @@ public class ChooseCardsAcitivity extends AppCompatActivity {
         gameRef = database.getReference("game").child(passedKey);
         playerRef = gameRef.child("players");
         cardRef = gameRef.child("cardsInPlay");
-        cards = new int[485];
+        cards = new int[476];
+        myCards = new int[8];
+        cardDetails = new String[4];
 
         cardRef.addValueEventListener(new ValueEventListener() {
             @Override
@@ -65,16 +69,30 @@ public class ChooseCardsAcitivity extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 int i = 0;
-                TextView text = (TextView) findViewById(R.id.textView);
-                text.setText("");
-                String dealtCards = "";
+                TextView name = (TextView) findViewById(R.id.cardName);
+                name.setText("");
+                TextView description = (TextView) findViewById(R.id.cardDescription);
+                description.setText("");
+                TextView category = (TextView) findViewById(R.id.cardCategory);
+                category.setText("");
+                TextView points = (TextView) findViewById(R.id.cardPoints);
+                points.setText("");
+
                 for (DataSnapshot playerSnap : dataSnapshot.getChildren()) {
                     if(playerSnap.getKey().equals(myUsername)){
-                        for(int j=0;j<8;j++){
-                            dealtCards+=cards[i*8 + j] + " ";
-                        }
-                        text.setText(dealtCards);
-                        Toast.makeText(ChooseCardsAcitivity.this, "You are player " + i, Toast.LENGTH_SHORT).show();
+
+//                        for(int j=0;j<8;j++) {
+//                            myCards[j] = cards[i * 8 + j];
+//                        }
+                        System.arraycopy(cards,i*8,myCards,0,8);
+
+                        int cardId = ChooseCardsAcitivity.this.getResources().getIdentifier("card" + myCards[i],"array",ChooseCardsAcitivity.this.getPackageName());
+                        cardDetails = getResources().getStringArray(cardId);
+                        name.setText(cardDetails[0]);
+                        description.setText(cardDetails[1]);
+                        category.setText(cardDetails[2]);
+                        points.setText(cardDetails[3]);
+                        Toast.makeText(ChooseCardsAcitivity.this, "Card number " + myCards[i], Toast.LENGTH_SHORT).show();
                         break;
                     }
                     i++;
