@@ -28,7 +28,7 @@ public class NewGameActivity extends AppCompatActivity {
     String key;
 
     public static int[] generateDeck() {
-        int size = 485;
+        int size = 476;
         int[] deck = new int[size];
         for (int i = 0; i < size; i++) {
             deck[i] = i;
