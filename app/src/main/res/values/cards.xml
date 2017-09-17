@@ -2,7 +2,7 @@
 <resources>
     <string-array name="card0">
         <item>Doge</item>
-        <item>An Internet meme that shows a Shiba lnu surrounded by colorful Comic Sans text that describes its inner monologue, such as \"Wow\", \"Concern\", and \"so scare\". There is much confuse over the name\'s pronunciation, yet it was recently used to brand a Bitcoin competitor. </item>
+        <item>An Internet meme that shows a Shiba Inu surrounded by colorful Comic Sans text that describes its inner monologue, such as \"Wow\", \"Concern\", and \"so scare\". There is much confuse over the name\'s pronunciation, yet it was recently used to brand a Bitcoin competitor. </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -20,7 +20,7 @@
     </string-array>
     <string-array name="card3">
         <item>A Russian Nesting Doll</item>
-        <item>A set of colorful wooden figurines that decrease in size and are placed inside of one another‘ Associated with a former Communist nation. they are often painted as women. but themes vary from babushkas to Star Wars characters to just Batmans all the way down. </item>
+        <item>A set of colorful wooden figurines that decrease in size and are placed inside of one another. Associated with a former Communist nation, they are often painted as women, but themes vary from babushkas to Star Wars characters to just Batmans all the way down. </item>
         <item>ET CETERA</item>
         <item>3</item>
     </string-array>
@@ -38,7 +38,7 @@
     </string-array>
     <string-array name="card6">
         <item>Rick Santorum</item>
-        <item>The former Republican Senator whose name, in retribution for comparing homosexuality to bestiality, was redefined in a contest held by sex columnist Dan Savage as \"the frothy mixture of lube and fecal matter that is sometimes the byproduct of anal sex.\“ </item>
+        <item>The former Republican Senator whose name, in retribution for comparing homosexuality to bestiality, was redefined in a contest held by sex columnist Dan Savage as \"the frothy mixture of lube and fecal matter that is sometimes the byproduct of anal sex.\" </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -62,7 +62,7 @@
     </string-array>
     <string-array name="card10">
         <item>Pablo Escobar</item>
-        <item>A Colombian drug lord and “King of Cocaine," who at his peak trafficked 15 tons of the drug into the US per year. He was killed by authorities in a firefight in Medellin. According to a recent BBC report, a number of hippos from his menagerie still roam the Colombian countryside. </item>
+        <item>A Colombian drug lord and \"King of Cocaine\", who at his peak trafficked 15 tons of the drug into the US per year. He was killed by authorities in a firefight in Medellin. According to a recent BBC report, a number of hippos from his menagerie still roam the Colombian countryside. </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
@@ -236,7 +236,7 @@
     </string-array>
     <string-array name="card39">
         <item>Leeroy Jenkins</item>
-        <item>A World of Warcraft player famous for going afk while his guild planned a complicated raid, then proceeded to run into the encounter screaming his own name and getting his guildmates killed. After being called “stupid as hell," he cryptically replied \"At least I have chicken\". </item>
+        <item>A World of Warcraft player famous for going afk while his guild planned a complicated raid, then proceeded to run into the encounter screaming his own name and getting his guildmates killed. After being called \"stupid as hell\", he cryptically replied \"At least I have chicken\". </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -278,7 +278,7 @@
     </string-array>
     <string-array name="card46">
         <item>Khalid Sheikh Mohammed</item>
-        <item>A terrorist known variously as the “principal architect of the 9/11 attacks" by the 9/11 Commission and \"Ron Jeremy in a pillowcase\" by Horatio Sanz. An engineer by training, he designed a vacuum cleaner while being held at a secret CIA detention facility in Poland. </item>
+        <item>A terrorist known variously as the \"principal architect of the 9/11 attacks\" by the 9/11 Commission and \"Ron Jeremy in a pillowcase\" by Horatio Sanz. An engineer by training, he designed a vacuum cleaner while being held at a secret CIA detention facility in Poland. </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
@@ -344,7 +344,7 @@
     </string-array>
     <string-array name="card57">
         <item>Kurt Cobain</item>
-        <item>The lead singer-songwriter of the grunge rock band Nirvana, known for songs like “Smells Like Teen Spirit" and \"All Apologies\". He had a history of mental illness and drug abuse, which led to his death in 1994 by a self-inflicted shotgun wound to the head. </item>
+        <item>The lead singer-songwriter of the grunge rock band Nirvana, known for songs like \"Smells Like Teen Spirit\" and \"All Apologies\". He had a history of mental illness and drug abuse, which led to his death in 1994 by a self-inflicted shotgun wound to the head. </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
@@ -374,7 +374,7 @@
     </string-array>
     <string-array name="card62">
         <item>Anne Frank</item>
-        <item>A wartime diarist and Holocaust victim. After visiting the famous site where her family hid from the Nazis for nearly two years. the pop star Justin Bieber wrote, “Truly inspiring to be able to come here. Anne was a great girl. Hopefully she would have been a belieber." </item>
+        <item>A wartime diarist and Holocaust victim. After visiting the famous site where her family hid from the Nazis for nearly two years. the pop star Justin Bieber wrote, \"Truly inspiring to be able to come here. Anne was a great girl. Hopefully she would have been a belieber.\" </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
@@ -386,7 +386,7 @@
     </string-array>
     <string-array name="card64">
         <item>Rapunzel</item>
-        <item>A character from a fairy tale collected by the Brothers Grimm, who is imprisoned in a tower by an evil witch. She is widely associated with the command, said by those who want to visit her in her tower. “Let down your hair, so that I may climb the golden stair." </item>
+        <item>A character from a fairy tale collected by the Brothers Grimm, who is imprisoned in a tower by an evil witch. She is widely associated with the command, said by those who want to visit her in her tower. \"Let down your hair, so that I may climb the golden stair.\" </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
@@ -476,7 +476,7 @@
     </string-array>
     <string-array name="card79">
         <item>A Grammar Nazi</item>
-        <item>A person who enforces language rules to an unusually high degree. According to knowyourmeme.com, one of the earliest uses was in 1995, when a user on the newsgroup alt.gothic called someone out for correcting the use of the term “thusly” for \"thus.\" </item>
+        <item>A person who enforces language rules to an unusually high degree. According to knowyourmeme.com, one of the earliest uses was in 1995, when a user on the newsgroup alt.gothic called someone out for correcting the use of the term \"thusly\" for \"thus.\" </item>
         <item>ET CETERA</item>
         <item>3</item>
     </string-array>
@@ -512,7 +512,7 @@
     </string-array>
     <string-array name="card85">
         <item>Drunk Jeff Goldblum</item>
-        <item>An actor who appeared in an Apple ad that was remixed on YouTube to make his speech sound slow and slurred (“What do you think the greatest gift of the holidays is? Internet?"). He has also appeared in The Fly, Jurassic Park, and many other films. </item>
+        <item>An actor who appeared in an Apple ad that was remixed on YouTube to make his speech sound slow and slurred (\"What do you think the greatest gift of the holidays is? Internet?\"). He has also appeared in The Fly, Jurassic Park, and many other films. </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -524,7 +524,7 @@
     </string-array>
     <string-array name="card87">
         <item>Slimer</item>
-        <item>A character from the Ghostbusters franchise. who appears as a transparent green blob composed of pure Ectoplasm. Ravenously consuming all food in sight, writer and actor Dan Aykroyd allegedly referred to him as “The Ghost of John Belushi.“ </item>
+        <item>A character from the Ghostbusters franchise. who appears as a transparent green blob composed of pure Ectoplasm. Ravenously consuming all food in sight, writer and actor Dan Aykroyd allegedly referred to him as \"The Ghost of John Belushi.\" </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
@@ -548,7 +548,7 @@
     </string-array>
     <string-array name="card91">
         <item>The Eye of Sauron</item>
-        <item>A manifestation of the title character in J.R.R. Tolkien\'s fantasy series The Lord of the Rings. Frodo describes it as “rimmed with fire, but was itself glazed. yellow as a cat‘s, watchful and intent, and the black slit of its pupil opened on a pit. a window into nothing." </item>
+        <item>A manifestation of the title character in J.R.R. Tolkien\'s fantasy series The Lord of the Rings. Frodo describes it as \"rimmed with fire, but was itself glazed. yellow as a cat‘s, watchful and intent, and the black slit of its pupil opened on a pit. a window into nothing.\" </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
@@ -566,7 +566,7 @@
     </string-array>
     <string-array name="card94">
         <item>Bubble Boy</item>
-        <item>A person with a genetic disease that leaves them vulnerable to infection and forced to live in a completely sterile environment. One was famously portrayed on Seinfeld. where he fought with George over a Trivial Pursuit card that read \"Moops\" instead of \"Moors." </item>
+        <item>A person with a genetic disease that leaves them vulnerable to infection and forced to live in a completely sterile environment. One was famously portrayed on Seinfeld. where he fought with George over a Trivial Pursuit card that read \"Moops\" instead of \"Moors.\" </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
@@ -590,7 +590,7 @@
     </string-array>
     <string-array name="card98">
         <item>The Hamburglar</item>
-        <item>A young, red—headed thief who dresses in striped clothing and steals items from the McDonald’s restaurant chain. Originally an old man with a long nose inexplicably called the \"Lone Jogger." he has since ceased being a villain in the McDonaldland universe. </item>
+        <item>A young, red—headed thief who dresses in striped clothing and steals items from the McDonald’s restaurant chain. Originally an old man with a long nose inexplicably called the \"Lone Jogger.\" he has since ceased being a villain in the McDonaldland universe. </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
@@ -602,7 +602,7 @@
     </string-array>
     <string-array name="card100">
         <item>A California Raisin</item>
-        <item>A member of a fictional R&amp;amp;B group composed of anthropomorphic dried grapes from the West Coast. They came to prominence in claymation form, singing a cover of \"I Heard It Through the Grapevine“ in an advertisement. They were also popular as plastic toys. </item>
+        <item>A member of a fictional R&amp;amp;B group composed of anthropomorphic dried grapes from the West Coast. They came to prominence in claymation form, singing a cover of \"I Heard It Through the Grapevine\" in an advertisement. They were also popular as plastic toys. </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
@@ -614,7 +614,7 @@
     </string-array>
     <string-array name="card102">
         <item>Khan!</item>
-        <item>A villain from the Star Trek franchise. who once controlled a portion of the earth during the Eugenics Wars of the 905. Ricardo Montalban played the genetically engineered superhuman, delivering lines such as \"Revenge is a dish that is best served cold.“ </item>
+        <item>A villain from the Star Trek franchise. who once controlled a portion of the earth during the Eugenics Wars of the 905. Ricardo Montalban played the genetically engineered superhuman, delivering lines such as \"Revenge is a dish that is best served cold.\" </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
@@ -626,13 +626,13 @@
     </string-array>
     <string-array name="card104">
         <item>The Kraken</item>
-        <item>A gigantic mythical sea monster that first appeared in Norse mythology. Because of its size. it was thought to have been inspired by giant squid sightings. In contemporary media. is often seen being \"released“ or “unleashed" upon an unsuspecting hero. </item>
+        <item>A gigantic mythical sea monster that first appeared in Norse mythology. Because of its size. it was thought to have been inspired by giant squid sightings. In contemporary media. is often seen being \"released\" or \"unleashed\" upon an unsuspecting hero. </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
     <string-array name="card105">
         <item>The Kaiser</item>
-        <item>The title of German leader Wilhelm II, who ruled until the end of World War I. He was depicted in propagan— da with an exaggerated handlebar mustache and Pickelhaube, the spiked helmet of the Prussian army. He was also once accused of stealing our word for “twenty." </item>
+        <item>The title of German leader Wilhelm II, who ruled until the end of World War I. He was depicted in propagan— da with an exaggerated handlebar mustache and Pickelhaube, the spiked helmet of the Prussian army. He was also once accused of stealing our word for \"twenty.\" </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
@@ -698,25 +698,25 @@
     </string-array>
     <string-array name="card116">
         <item>A Fainting Goat</item>
-        <item>A farm animal that suffers from a genetic disorder that causes its muscles to freeze for approximately 10 seconds when panicked. The condition is formally knows as myotonia congenita, which Buzzfeed once described as “easily the cutest neurological disorder." </item>
+        <item>A farm animal that suffers from a genetic disorder that causes its muscles to freeze for approximately 10 seconds when panicked. The condition is formally knows as myotonia congenita, which Buzzfeed once described as \"easily the cutest neurological disorder.\" </item>
         <item>ET CETERA</item>
         <item>3</item>
     </string-array>
     <string-array name="card117">
         <item>Count Chocula</item>
-        <item>A vampire mascot from the General Mills Corporation‘s series of monster—based breakfast cereals. Like his colleagues Franken—Berry. Boo-Berry, Fruit Brute, and Yummy Mummy, his origin is a mystery. His tagline, \"I vant to eat your cereal!“ seems a little on the nose. </item>
+        <item>A vampire mascot from the General Mills Corporation‘s series of monster—based breakfast cereals. Like his colleagues Franken—Berry. Boo-Berry, Fruit Brute, and Yummy Mummy, his origin is a mystery. His tagline, \"I vant to eat your cereal!\" seems a little on the nose. </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
     <string-array name="card118">
         <item>Paul Reubens</item>
-        <item>An actor famous for his character Pee-wee Herman. He was arrested for masturbating in a Sarasota. FL adult theater in 1991. When confronted by police. he allegedly said \"I‘m Pee-wee Herman" and suggested doing a local children\'s benefit \"to take care of this." </item>
+        <item>An actor famous for his character Pee-wee Herman. He was arrested for masturbating in a Sarasota. FL adult theater in 1991. When confronted by police. he allegedly said \"I‘m Pee-wee Herman\" and suggested doing a local children\'s benefit \"to take care of this.\" </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
     <string-array name="card119">
         <item>Ceiling Cat</item>
-        <item>The subject of a famous internet photo showing a feline peeking out of a hole and. allegedly. \"watching you masturbate." In 2010, a Redditor indicated that the hole was actually in a wall. claiming \"This changes everything.“ The feline is said to have a rival in the basement. </item>
+        <item>The subject of a famous internet photo showing a feline peeking out of a hole and. allegedly. \"watching you masturbate.\" In 2010, a Redditor indicated that the hole was actually in a wall. claiming \"This changes everything.\" The feline is said to have a rival in the basement. </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -740,7 +740,7 @@
     </string-array>
     <string-array name="card123">
         <item>A Furby</item>
-        <item>A fuzzy interactive toy that became popular in the late 905. Vaguely resembling an owl, it speaks a unique language. learning English over time through interacting with its owner. When held upside down it says things like \"me scared" and begins crying. </item>
+        <item>A fuzzy interactive toy that became popular in the late 905. Vaguely resembling an owl, it speaks a unique language. learning English over time through interacting with its owner. When held upside down it says things like \"me scared\" and begins crying. </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
@@ -752,7 +752,7 @@
     </string-array>
     <string-array name="card125">
         <item>The one-armed drummer from Def Leppard</item>
-        <item>The percussionist for the popular 80s hair metal band known for hits like \"Love Bites” and \"Pour Some Sugar on Me.“ He is best known for continuing to record and perform using a specially designed kit following the amputation of a limb after a drag racing accident. </item>
+        <item>The percussionist for the popular 80s hair metal band known for hits like \"Love Bites\" and \"Pour Some Sugar on Me.\" He is best known for continuing to record and perform using a specially designed kit following the amputation of a limb after a drag racing accident. </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -842,7 +842,7 @@
     </string-array>
     <string-array name="card140">
         <item>Damien Hirst</item>
-        <item>The wealthiest artist in the world, who is best known for selling a huge dead tiger shark preserved in formaldehyde for more than $8M. He once argued that the 9/11 terrorists “need congratulating" for \"achieving something which nobody would have thought possible." </item>
+        <item>The wealthiest artist in the world, who is best known for selling a huge dead tiger shark preserved in formaldehyde for more than $8M. He once argued that the 9/11 terrorists \"need congratulating\" for \"achieving something which nobody would have thought possible.\" </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -866,7 +866,7 @@
     </string-array>
     <string-array name="card144">
         <item>William Shatner</item>
-        <item>A legendary actor. who portrayed classic characters such as Captain Kirk, TJ Hooker, the guy who saw a plane gremlin on The Twilight Zone. and the Priceline Negotiator. He also has a musical career that began with a spoken word performance of Elton John’s \"Rocket Man." </item>
+        <item>A legendary actor. who portrayed classic characters such as Captain Kirk, TJ Hooker, the guy who saw a plane gremlin on The Twilight Zone. and the Priceline Negotiator. He also has a musical career that began with a spoken word performance of Elton John’s \"Rocket Man.\" </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -902,7 +902,7 @@
     </string-array>
     <string-array name="card150">
         <item>Blackfish</item>
-        <item>An orca at SeaWorld who raised questions about animal captivity by killing 3 people. In 2010, Motley Crue founder Tommy Lee wrote to SeaWorld’s president stating that he knew humans still \"get into the pool and masturbate him with a cow’s vagina filled with hot water.“ </item>
+        <item>An orca at SeaWorld who raised questions about animal captivity by killing 3 people. In 2010, Motley Crue founder Tommy Lee wrote to SeaWorld’s president stating that he knew humans still \"get into the pool and masturbate him with a cow’s vagina filled with hot water.\" </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -932,7 +932,7 @@
     </string-array>
     <string-array name="card155">
         <item>Kim Jong-il</item>
-        <item>The former Supreme Leader of the Democratic People\'s Republic of Korea and author of On the Art of the Cinema. His family is at the center of an elaborate personality cult in the so called \"Hermit Kingdom.“ A famous tumblr collected photos of him looking at things. </item>
+        <item>The former Supreme Leader of the Democratic People\'s Republic of Korea and author of On the Art of the Cinema. His family is at the center of an elaborate personality cult in the so called \"Hermit Kingdom.\" A famous tumblr collected photos of him looking at things. </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
@@ -950,7 +950,7 @@
     </string-array>
     <string-array name="card158">
         <item>Mr. Rogers</item>
-        <item>The good—natured host of a children’s show that begins with him singing, \"It‘s a wonderful day in the neighborhood," putting on a sweater and sneakers. and asking the viewers to be his neighbor: Each episode include a trip to the Neighborhood of Make-Believe. </item>
+        <item>The good—natured host of a children’s show that begins with him singing, \"It‘s a wonderful day in the neighborhood\", putting on a sweater and sneakers. and asking the viewers to be his neighbor: Each episode include a trip to the Neighborhood of Make-Believe. </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
@@ -962,13 +962,13 @@
     </string-array>
     <string-array name="card160">
         <item>Joe Biden</item>
-        <item>The 47th Vice President of the US. His blue collar image has led to a series of humorous articles in The Onion. such as \"Joe Biden Shows Up To Inauguration With Ponytail“ and ”Obama Issues Presidential Pardon To Get Biden Out Of Jail For Third Time This Year." </item>
+        <item>The 47th Vice President of the US. His blue collar image has led to a series of humorous articles in The Onion. such as \"Joe Biden Shows Up To Inauguration With Ponytail\" and \"Obama Issues Presidential Pardon To Get Biden Out Of Jail For Third Time This Year.\" </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
     <string-array name="card161">
         <item>A Fetus</item>
-        <item>The stage of development between embryo and birth. It is sometimes categorized by the presence of all major body organs (though not necessarily functioning). typically around the 11th week of gestation. In humans, it is approximately 1.2" in length from crown to rump. </item>
+        <item>The stage of development between embryo and birth. It is sometimes categorized by the presence of all major body organs (though not necessarily functioning). typically around the 11th week of gestation. In humans, it is approximately 1.2\" in length from crown to rump. </item>
         <item>ET CETERA</item>
         <item>3</item>
     </string-array>
@@ -980,7 +980,7 @@
     </string-array>
     <string-array name="card163">
         <item>Crocodile Dundee</item>
-        <item>The title character in a trilogy of fish-out-of-water films about an Australian bushman struggling to find his way in big city America. Played by Paul Hogan, he famously threatens muggers, saying \"That‘s not a knife. [draws his bowie knife] That\'s a knife." </item>
+        <item>The title character in a trilogy of fish-out-of-water films about an Australian bushman struggling to find his way in big city America. Played by Paul Hogan, he famously threatens muggers, saying \"That‘s not a knife. [draws his bowie knife] That\'s a knife.\" </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
@@ -998,7 +998,7 @@
     </string-array>
     <string-array name="card166">
         <item>The Kool-Aid Man</item>
-        <item>The 6 foot tall, cherry-flavored mascot for a powdery drink mix that is combined with water and sugar. He is famous for making a dramatic entrance when children express thirst by smashing through a brick wall and yelling his catchphrase “Oh yeah!" </item>
+        <item>The 6 foot tall, cherry-flavored mascot for a powdery drink mix that is combined with water and sugar. He is famous for making a dramatic entrance when children express thirst by smashing through a brick wall and yelling his catchphrase \"Oh yeah!\" </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
@@ -1022,7 +1022,7 @@
     </string-array>
     <string-array name="card170">
         <item>John Henry</item>
-        <item>An American folk hero and “Steel Drivin’ Man." In the myth, he competed against a steam powered hammer to determine who could drill into rock the fastest. He wins the competition, but his heart gives out and he dies before being able to fully celebrate his victory. </item>
+        <item>An American folk hero and \"Steel Drivin’ Man.\" In the myth, he competed against a steam powered hammer to determine who could drill into rock the fastest. He wins the competition, but his heart gives out and he dies before being able to fully celebrate his victory. </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
@@ -1052,7 +1052,7 @@
     </string-array>
     <string-array name="card175">
         <item>A Close Talker</item>
-        <item>A person who stands uncomfort- ably near a person while speaking. This term was first coined in \"The Raincoats," an episode of Seinfeld. In it, Elaine‘s new boyfriend Aaron is described as being one of these, disrupting the personal space of anyone he speaks to. </item>
+        <item>A person who stands uncomfort- ably near a person while speaking. This term was first coined in \"The Raincoats\", an episode of Seinfeld. In it, Elaine‘s new boyfriend Aaron is described as being one of these, disrupting the personal space of anyone he speaks to. </item>
         <item>ET CETERA</item>
         <item>3</item>
     </string-array>
@@ -1082,13 +1082,13 @@
     </string-array>
     <string-array name="card180">
         <item>The Shark from Jaws</item>
-        <item>A man-eating great white that terrorizes the town of Amity Island in a film by Steven Spielberg. Not seen until well into the film, it is so large that Roy Scheider\'s character suggests the crew is \"gonna need a bigger boat." It was nicknamed Bruce after Spielberg‘s lawyer. </item>
+        <item>A man-eating great white that terrorizes the town of Amity Island in a film by Steven Spielberg. Not seen until well into the film, it is so large that Roy Scheider\'s character suggests the crew is \"gonna need a bigger boat.\" It was nicknamed Bruce after Spielberg‘s lawyer. </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
     <string-array name="card181">
         <item>A T. Rex</item>
-        <item>Meaning \"lizard king," this species of bipedal carnivore lived in western North America during the Cretaceous Period. They are the most widely known dinosaur in the world due to their adorably tiny arms and footsteps that vibrate cups of water. </item>
+        <item>Meaning \"lizard king\", this species of bipedal carnivore lived in western North America during the Cretaceous Period. They are the most widely known dinosaur in the world due to their adorably tiny arms and footsteps that vibrate cups of water. </item>
         <item>ET CETERA</item>
         <item>3</item>
     </string-array>
@@ -1100,7 +1100,7 @@
     </string-array>
     <string-array name="card183">
         <item>The Boogeyman</item>
-        <item>A creature used by adults to scare children into good behavior. Its description and motivations vary across cultures. but often include kidnapping misbehaving children. Variants of this monster include Latin America’s “Sack Man" and Egypt‘s \"Man With Burnt Leg.“ </item>
+        <item>A creature used by adults to scare children into good behavior. Its description and motivations vary across cultures. but often include kidnapping misbehaving children. Variants of this monster include Latin America’s \"Sack Man\" and Egypt‘s \"Man With Burnt Leg.\" </item>
         <item>ET CETERA</item>
         <item>3</item>
     </string-array>
@@ -1154,13 +1154,13 @@
     </string-array>
     <string-array name="card192">
         <item>Rick James</item>
-        <item>A musician whose decadent, drug-fueled lifestyle is frequently parodied, notably in several \"True Hollywood Stories" on The Chappelle Show. The popularity of depictions of his cocaine habits and use of the word “bitch“ contributed to Chappelle leaving the show. </item>
+        <item>A musician whose decadent, drug-fueled lifestyle is frequently parodied, notably in several \"True Hollywood Stories\" on The Chappelle Show. The popularity of depictions of his cocaine habits and use of the word \"bitch\" contributed to Chappelle leaving the show. </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
     <string-array name="card193">
         <item>Bob Ross</item>
-        <item>A painter and TV host, who starred in PBS\'s The Joy of Painting. He taught viewers how to paint \"fluffy white clouds" and \"happy little trees" using wet on wet painting. He supposedly hated his white-guy afro and kept it only for marketing purposes. </item>
+        <item>A painter and TV host, who starred in PBS\'s The Joy of Painting. He taught viewers how to paint \"fluffy white clouds\" and \"happy little trees\" using wet on wet painting. He supposedly hated his white-guy afro and kept it only for marketing purposes. </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -1178,13 +1178,13 @@
     </string-array>
     <string-array name="card196">
         <item>Thomas Kinkade</item>
-        <item>The self-styled Painter of Light”, whose paintings often featured cottages with glowing lights in overly saturated pastoral landscapes. He died, according to his mistress, \"very happy" from acute intoxication of alcohol and Valium. </item>
+        <item>The self-styled Painter of Light\", whose paintings often featured cottages with glowing lights in overly saturated pastoral landscapes. He died, according to his mistress, \"very happy\" from acute intoxication of alcohol and Valium. </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
     <string-array name="card197">
         <item>Honey Boo Boo</item>
-        <item>A child beauty pageant contestant and star of a TLC reality show. She is known for her southern drawl, love of \"Go Go Juice" (a blend of Mountain Dew and Red Bull), and open—minded attitude, having once said of her uncle, \"Ain\'t nothing wrong with bein’ a little gay.” </item>
+        <item>A child beauty pageant contestant and star of a TLC reality show. She is known for her southern drawl, love of \"Go Go Juice\" (a blend of Mountain Dew and Red Bull), and open—minded attitude, having once said of her uncle, \"Ain\'t nothing wrong with bein’ a little gay.\" </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -1226,7 +1226,7 @@
     </string-array>
     <string-array name="card204">
         <item>Ricardo Montalban</item>
-        <item>A Mexican actor who played Khan Noonien Singh in the original Star Trek series and Star Trek II: The Wrath of Khan. He was also known for his endorsement of the Chrysler Cérdoba, where he praised the \"tastefulness of its appearance” and its \"soft Corinthian leather.“ </item>
+        <item>A Mexican actor who played Khan Noonien Singh in the original Star Trek series and Star Trek II: The Wrath of Khan. He was also known for his endorsement of the Chrysler Cérdoba, where he praised the \"tastefulness of its appearance\" and its \"soft Corinthian leather.\" </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -1244,7 +1244,7 @@
     </string-array>
     <string-array name="card207">
         <item>A Man from Nantucket</item>
-        <item>A character from a famous limerick that references an island 30 miles south of Cape Cod. The limerick describes this person as being particularly well-endowed, with the most popular rhyming couplet being “Whose dick was so long he could suck it.“ </item>
+        <item>A character from a famous limerick that references an island 30 miles south of Cape Cod. The limerick describes this person as being particularly well-endowed, with the most popular rhyming couplet being \"Whose dick was so long he could suck it.\" </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
@@ -1256,7 +1256,7 @@
     </string-array>
     <string-array name="card209">
         <item>Catherine the Great</item>
-        <item>The \"Empress and Autocrat of all the Russias"\, who led the country\'s Golden Age: an era of revitalization and recognition as a great power of Europe. She took many lovers during her reign. leading to legends about her sexual proclivities, including an erotic desire for horses. </item>
+        <item>The \"Empress and Autocrat of all the Russias\"\, who led the country\'s Golden Age: an era of revitalization and recognition as a great power of Europe. She took many lovers during her reign. leading to legends about her sexual proclivities, including an erotic desire for horses. </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
@@ -1280,13 +1280,13 @@
     </string-array>
     <string-array name="card213">
         <item>Rob Ford</item>
-        <item>The disgraced mayor of Toronto who confessed to smoking crack “probably in one of my drunken stupors.” Responding to allegations of sexual harassment, he said. \"It was said I want to eat her pussy. I would never do that. I’ve got more than enough to eat at home.“ </item>
+        <item>The disgraced mayor of Toronto who confessed to smoking crack \"probably in one of my drunken stupors.\" Responding to allegations of sexual harassment, he said. \"It was said I want to eat her pussy. I would never do that. I’ve got more than enough to eat at home.\" </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
     <string-array name="card214">
         <item>Lot’s Wife</item>
-        <item>A Biblical figure who was spared from God\'s divine judgment against the cities of Sodom and Gomorrah. As the cities were being destroyed by fire and brimstone, her family was told by angels \"look not behind thee." She did and was transformed into a pillar of salt. </item>
+        <item>A Biblical figure who was spared from God\'s divine judgment against the cities of Sodom and Gomorrah. As the cities were being destroyed by fire and brimstone, her family was told by angels \"look not behind thee.\" She did and was transformed into a pillar of salt. </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
@@ -1304,13 +1304,13 @@
     </string-array>
     <string-array name="card217">
         <item>Log Lady</item>
-        <item>A minor character from the television show Twin Peaks. She carries a piece of a tree cradled in her arms at all times, and seems to act as a medium between the object and the outside world, such as when she claims that it “saw something" the night Laura Palmer died. </item>
+        <item>A minor character from the television show Twin Peaks. She carries a piece of a tree cradled in her arms at all times, and seems to act as a medium between the object and the outside world, such as when she claims that it \"saw something\" the night Laura Palmer died. </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
     <string-array name="card218">
         <item>Baby Einstein</item>
-        <item>The German theoretical physicist and Nobel Prize winner, as an infant. He devised the \"world‘s most famous equation." his mass—energy formula E=mc2. This could also refer to a series of potentially ineffective educational products designed for infants. </item>
+        <item>The German theoretical physicist and Nobel Prize winner, as an infant. He devised the \"world‘s most famous equation.\" his mass—energy formula E=mc2. This could also refer to a series of potentially ineffective educational products designed for infants. </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
@@ -1328,7 +1328,7 @@
     </string-array>
     <string-array name="card221">
         <item>Anita Hill</item>
-        <item>An attorney and academic who was thrust into the spotlight when she accused Supreme Court nominee Clarence Thomas of sexual harassment. She claimed that Thomas, among other comments, once asked her \"Who has put pubic hair on my Coke?" </item>
+        <item>An attorney and academic who was thrust into the spotlight when she accused Supreme Court nominee Clarence Thomas of sexual harassment. She claimed that Thomas, among other comments, once asked her \"Who has put pubic hair on my Coke?\" </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
@@ -1340,7 +1340,7 @@
     </string-array>
     <string-array name="card223">
         <item>Cocaine Bear</item>
-        <item>An ursine internet meme, who \"fucking loves" this white, powdery drug. The image, which shows the creature\'s roaring face covered in snow. is a parody of the \"binge“ trope in TV and film, such as Al Pacino\'s Scarface and Dave Chappelle\'s Tyrone Biggums. </item>
+        <item>An ursine internet meme, who \"fucking loves\" this white, powdery drug. The image, which shows the creature\'s roaring face covered in snow. is a parody of the \"binge\" trope in TV and film, such as Al Pacino\'s Scarface and Dave Chappelle\'s Tyrone Biggums. </item>
         <item>ET CETERA</item>
         <item>3</item>
     </string-array>
@@ -1370,7 +1370,7 @@
     </string-array>
     <string-array name="card228">
         <item>Robert Hamilton</item>
-        <item>An American artist and self described \"best totally unknown painter in the world." His improvisational style was praised by modernist contemporaries, including Andrew Wyeth. Like his beloved jazz, Hamilton believed \"the picture makes itself. When I‘m finished, I don\'t know how the hell I did it." </item>
+        <item>An American artist and self described \"best totally unknown painter in the world.\" His improvisational style was praised by modernist contemporaries, including Andrew Wyeth. Like his beloved jazz, Hamilton believed \"the picture makes itself. When I‘m finished, I don\'t know how the hell I did it.\" </item>
         <item>CARD BY RICHARD MAXFIELD</item>
         <item>3</item>
     </string-array>
@@ -1382,7 +1382,7 @@
     </string-array>
     <string-array name="card230">
         <item>Bartleby the Scrivener</item>
-        <item>The title character from a short story by Herman Melville, who is employed to copy legal documents by hand. After gaining a reputation as a hard worker, he unexpectedly refuses to do any further work, instead repeating \"I would prefer not to" to all requests. </item>
+        <item>The title character from a short story by Herman Melville, who is employed to copy legal documents by hand. After gaining a reputation as a hard worker, he unexpectedly refuses to do any further work, instead repeating \"I would prefer not to\" to all requests. </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
@@ -1400,7 +1400,7 @@
     </string-array>
     <string-array name="card233">
         <item>Grape Lady</item>
-        <item>A newscaster who falls from a platform after attempting to cheat during a light-hearted segment at Chateau Elan Winery. After falling out of frame, she is heard off camera making strange noises and saying, \"OW 0W OW…STOP STOP… OOH OOH OOH…I can’t breathe." </item>
+        <item>A newscaster who falls from a platform after attempting to cheat during a light-hearted segment at Chateau Elan Winery. After falling out of frame, she is heard off camera making strange noises and saying, \"OW 0W OW…STOP STOP… OOH OOH OOH…I can’t breathe.\" </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -1412,7 +1412,7 @@
     </string-array>
     <string-array name="card235">
         <item>The name of Apple‘s personal</item>
-        <item>that interacts with users through natural language. It has spawned a popular Tumblr consisting of ironic interactions, such as the search \"I have a gambling addiction” returning a list of nearby casinos. </item>
+        <item>that interacts with users through natural language. It has spawned a popular Tumblr consisting of ironic interactions, such as the search \"I have a gambling addiction\" returning a list of nearby casinos. </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
@@ -1430,7 +1430,7 @@
     </string-array>
     <string-array name="card238">
         <item>Silvio Berlusconi</item>
-        <item>The former Prime Minister of Italy. owner of AC. Milan, and serial tax evader. He is notorious for soliciting prostitutes and for organizing a type of orgy known as a \"bunga bunga." It is rumored that the concept was introduced to him by Libyan dictator, Muammar Gaddafi. </item>
+        <item>The former Prime Minister of Italy. owner of AC. Milan, and serial tax evader. He is notorious for soliciting prostitutes and for organizing a type of orgy known as a \"bunga bunga.\" It is rumored that the concept was introduced to him by Libyan dictator, Muammar Gaddafi. </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -1448,13 +1448,13 @@
     </string-array>
     <string-array name="card241">
         <item>The Dread Pirate Roberts</item>
-        <item>The founder of the Silk Road, the \"amazon.com of illegal drugs." His identity remains a mystery, though the name suggests it belongs to multiple people, since it was lifted from a character in the The Princess Bride, where a mythical brigand is actually a series of individuals. </item>
+        <item>The founder of the Silk Road, the \"amazon.com of illegal drugs.\" His identity remains a mystery, though the name suggests it belongs to multiple people, since it was lifted from a character in the The Princess Bride, where a mythical brigand is actually a series of individuals. </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
     <string-array name="card242">
         <item>Honey Boo Boo</item>
-        <item>A child beauty pageant contestant and star of a TLC reality show. She is known for her southern drawl, love of “Go Go Juice" (a blend of Mountain Dew and Red Bull), and open-minded attitude, having once said of her uncle, \"Ain’t nothing wrong with bein’ a little gay.“ </item>
+        <item>A child beauty pageant contestant and star of a TLC reality show. She is known for her southern drawl, love of \"Go Go Juice\" (a blend of Mountain Dew and Red Bull), and open-minded attitude, having once said of her uncle, \"Ain’t nothing wrong with bein’ a little gay.\" </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -1490,7 +1490,7 @@
     </string-array>
     <string-array name="card248">
         <item>A Civil War Reenactor</item>
-        <item>A \"living historian." who spends their free time roleplaying as a Confederate or Union soldier in America’s bloodiest war. A participant typically falls into one of three classes. from least to most authentic (and unbearable): farb, mainstream, and progressive. </item>
+        <item>A \"living historian.\" who spends their free time roleplaying as a Confederate or Union soldier in America’s bloodiest war. A participant typically falls into one of three classes. from least to most authentic (and unbearable): farb, mainstream, and progressive. </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
@@ -1502,7 +1502,7 @@
     </string-array>
     <string-array name="card250">
         <item>Roland the Farter, Flatulist to the King</item>
-        <item>A 12th century court jester to Henry II. In exchange for his services ("he was obliged to perform every year on the birthday of our Lord before his master, one jump. and a whistle, and one fart“), he received a manor and 30 acres of land in the county of Suffolk. </item>
+        <item>A 12th century court jester to Henry II. In exchange for his services (\"he was obliged to perform every year on the birthday of our Lord before his master, one jump. and a whistle, and one fart\"), he received a manor and 30 acres of land in the county of Suffolk. </item>
         <item>CARD BY MAX TEMKIN</item>
         <item>3</item>
     </string-array>
@@ -1526,7 +1526,7 @@
     </string-array>
     <string-array name="card254">
         <item>Montezuma</item>
-        <item>The 9th tlatoani of Tenochtitlan and ruler of the Aztec Triple Alliance. During their first contact with Europeans, he was killed by conquistador Herna‘n Cortés’s men as the fled his capital. His \"revenge" is a euphemism for contracting traveler\'s diarrhea in Mexico. </item>
+        <item>The 9th tlatoani of Tenochtitlan and ruler of the Aztec Triple Alliance. During their first contact with Europeans, he was killed by conquistador Herna‘n Cortés’s men as the fled his capital. His \"revenge\" is a euphemism for contracting traveler\'s diarrhea in Mexico. </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
@@ -1550,7 +1550,7 @@
     </string-array>
     <string-array name="card258">
         <item>Oprah’s best friend (Gayle)</item>
-        <item>The co-anchor of CBS This Morning and Editor-at-large for 0 Magazine. She gained notoriety for her long-running relationship with a famous talk show host and \"Queen of All Media." Despite being married to a man, there are persistent rumors that the two are lovers. </item>
+        <item>The co-anchor of CBS This Morning and Editor-at-large for 0 Magazine. She gained notoriety for her long-running relationship with a famous talk show host and \"Queen of All Media.\" Despite being married to a man, there are persistent rumors that the two are lovers. </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -1562,7 +1562,7 @@
     </string-array>
     <string-array name="card260">
         <item>Clippy</item>
-        <item>The nickname of the Office Assistant in Microsoft Office, who appears as the metal object used to hold sheets of paper together. He would \"tap" on the monitor to get your attention. Supposedly, Microsoft‘s internal name for it was TFC (The Fucking Clown). </item>
+        <item>The nickname of the Office Assistant in Microsoft Office, who appears as the metal object used to hold sheets of paper together. He would \"tap\" on the monitor to get your attention. Supposedly, Microsoft‘s internal name for it was TFC (The Fucking Clown). </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
@@ -1574,19 +1574,19 @@
     </string-array>
     <string-array name="card262">
         <item>The Walrus</item>
-        <item>The character in a song by the Beatles from their album Magical Mystery Tour. It is a reference to a Lewis Carroll’s poem, also about a flippered marine mammal. The lyrics that follow, \"Goo Goo Ga Joob,“ possibly stated by the character, were drawn from Finnegan’s Wake. </item>
+        <item>The character in a song by the Beatles from their album Magical Mystery Tour. It is a reference to a Lewis Carroll’s poem, also about a flippered marine mammal. The lyrics that follow, \"Goo Goo Ga Joob\", possibly stated by the character, were drawn from Finnegan’s Wake. </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
     <string-array name="card263">
         <item>Big Brother</item>
-        <item>The personification of the nanny state. which comes from Oceania’s totalitarian leader in George Orwell’s novel 1984. He is frequently reminded to be \"watching you," though in an instance of the novel‘s doublethink. the expression is both a veiled threat and a reassurance. </item>
+        <item>The personification of the nanny state. which comes from Oceania’s totalitarian leader in George Orwell’s novel 1984. He is frequently reminded to be \"watching you\", though in an instance of the novel‘s doublethink. the expression is both a veiled threat and a reassurance. </item>
         <item>ET CETERA</item>
         <item>3</item>
     </string-array>
     <string-array name="card264">
         <item>Helen Keller</item>
-        <item>The deafblind author, leftist, and suffragist, whose teacher, Anne Sullivan, taught her to communicate by spelling words into her hands, beginning with the word \"doll." Their relationship was the subject of the biographical play and film The Miracle Worker. </item>
+        <item>The deafblind author, leftist, and suffragist, whose teacher, Anne Sullivan, taught her to communicate by spelling words into her hands, beginning with the word \"doll.\" Their relationship was the subject of the biographical play and film The Miracle Worker. </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
@@ -1604,7 +1604,7 @@
     </string-array>
     <string-array name="card267">
         <item>A Mormon</item>
-        <item>A member of the Latter-Day Saints, inspired by the visions of 19th century American Joseph Smith. They were once infamous for some members practicing polygamy. Members taking part in endowment ceremonies wear special underwear called \"temple garments.“ </item>
+        <item>A member of the Latter-Day Saints, inspired by the visions of 19th century American Joseph Smith. They were once infamous for some members practicing polygamy. Members taking part in endowment ceremonies wear special underwear called \"temple garments.\" </item>
         <item>ET CETERA</item>
         <item>3</item>
     </string-array>
@@ -1652,25 +1652,25 @@
     </string-array>
     <string-array name="card275">
         <item>Dikembe Mutombo</item>
-        <item>A 7\'2" Congolese-American basketball player best known for his incredibly deep voice, thick accent. and penchant for waving his index finger at opponents after stuffing them at the rim. He once described the restaurant Pasta Pasta as being “named after pasta.” </item>
+        <item>A 7\'2\" Congolese-American basketball player best known for his incredibly deep voice, thick accent. and penchant for waving his index finger at opponents after stuffing them at the rim. He once described the restaurant Pasta Pasta as being \"named after pasta.\" </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
     <string-array name="card276">
         <item>Comic Book Guy</item>
-        <item>The overweight owner of The Android\'s Dungeon &amp;amp; Baseball Card Shop on The Simpsons. His character has a master‘s degree in folklore mythology—he translated The Lord of the Rings into Klingon—and is known for his catchphrase \"Worst [blank] ever." </item>
+        <item>The overweight owner of The Android\'s Dungeon &amp;amp; Baseball Card Shop on The Simpsons. His character has a master‘s degree in folklore mythology—he translated The Lord of the Rings into Klingon—and is known for his catchphrase \"Worst [blank] ever.\" </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
     <string-array name="card277">
         <item>A Dead Horse</item>
-        <item>Useless to beat and effectively unrideable. this deceased animal is used in an idiom to explain that a point, once made. does not need to be re-stated. Similar the phrase, \"To slay the slain." This animal is substituted with a dog in other parts of the English speaking world. </item>
+        <item>Useless to beat and effectively unrideable. this deceased animal is used in an idiom to explain that a point, once made. does not need to be re-stated. Similar the phrase, \"To slay the slain.\" This animal is substituted with a dog in other parts of the English speaking world. </item>
         <item>ET CETERA</item>
         <item>3</item>
     </string-array>
     <string-array name="card278">
         <item>Lady Gaga’s meat dress</item>
-        <item>A piece of raw beef worn by \"Mother Monster" to the 2010 MTV Video Music Awards. The pop diva stated that she wore the item to highlight her distaste for the military‘s don‘t-ask-don’t-tell policy. The item was preserved by a taxidermist, who turned it into jerky. </item>
+        <item>A piece of raw beef worn by \"Mother Monster\" to the 2010 MTV Video Music Awards. The pop diva stated that she wore the item to highlight her distaste for the military‘s don‘t-ask-don’t-tell policy. The item was preserved by a taxidermist, who turned it into jerky. </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -1688,7 +1688,7 @@
     </string-array>
     <string-array name="card281">
         <item>Hal-9000</item>
-        <item>The sentient computer from Stanley Kubrick\'s 2001: A Space Odyssey. Initially a helpful part of the ship, it eventually turns on the crew, killing Dr. Poole before being disconnected by Dave. As its mind goes, it sings \"Daisy Bell“ while pleading for its life. </item>
+        <item>The sentient computer from Stanley Kubrick\'s 2001: A Space Odyssey. Initially a helpful part of the ship, it eventually turns on the crew, killing Dr. Poole before being disconnected by Dave. As its mind goes, it sings \"Daisy Bell\" while pleading for its life. </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
@@ -1718,7 +1718,7 @@
     </string-array>
     <string-array name="card286">
         <item>Prancer</item>
-        <item>One of the flying reindeer that pulls Santa\'s sleigh in “The Night Before Christmas." His name is also used in a fitness method and internet meme by Joanna Rohrback that is a ”springy, rhythmic way of moving forward. similar to a horse‘s gait and ideally induced by elation" </item>
+        <item>One of the flying reindeer that pulls Santa\'s sleigh in \"The Night Before Christmas.\" His name is also used in a fitness method and internet meme by Joanna Rohrback that is a \"springy, rhythmic way of moving forward. similar to a horse‘s gait and ideally induced by elation\" </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
@@ -1760,19 +1760,19 @@
     </string-array>
     <string-array name="card293">
         <item>The Ubermensch</item>
-        <item>A concept created by Nietzsche in Thus Spoke Zarathustra that roughly translates to \"Superman." A character in the book holds it up as a supreme goal for humanity to achieve. The term was incorrectly used by the Nazi regime to argue for a biologically superior race. </item>
+        <item>A concept created by Nietzsche in Thus Spoke Zarathustra that roughly translates to \"Superman.\" A character in the book holds it up as a supreme goal for humanity to achieve. The term was incorrectly used by the Nazi regime to argue for a biologically superior race. </item>
         <item>ET CETERA</item>
         <item>3</item>
     </string-array>
     <string-array name="card294">
         <item>Mother Teresa</item>
-        <item>A missionary and Nobel Peace Prize winner who claimed \"the world is being helped by the suffering of poor people." Her Home for the Dying Destitutes in Calcutta offered no significant medical care and only 7% of donations to her organization were directly used for charity. </item>
+        <item>A missionary and Nobel Peace Prize winner who claimed \"the world is being helped by the suffering of poor people.\" Her Home for the Dying Destitutes in Calcutta offered no significant medical care and only 7% of donations to her organization were directly used for charity. </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
     <string-array name="card295">
         <item>Bill Clinton</item>
-        <item>The 42nd President of the US and tenor saxophonist. He was the second president to be impeached in office, due to charges related to receiving oral sex from a White House intern. The case famously depended \"on what the meaning of the word \'is\' is." </item>
+        <item>The 42nd President of the US and tenor saxophonist. He was the second president to be impeached in office, due to charges related to receiving oral sex from a White House intern. The case famously depended \"on what the meaning of the word \'is\' is.\" </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
@@ -1808,13 +1808,13 @@
     </string-array>
     <string-array name="card301">
         <item>Kate Bush</item>
-        <item>An English musician known for her idiosyncratic vocal delivery, literary sensibility, hit singles such as \"Wuthering Heights" and \"Baboosh- ka." One of her Karate instructors has noted that many of her dance moves owe a debt to her martial arts training. </item>
+        <item>An English musician known for her idiosyncratic vocal delivery, literary sensibility, hit singles such as \"Wuthering Heights\" and \"Baboosh- ka.\" One of her Karate instructors has noted that many of her dance moves owe a debt to her martial arts training. </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
     <string-array name="card302">
         <item>A Juggalo</item>
-        <item>A fan of the Insane Clown Posse. These individuals gather in the woods each year for an annual \"Gathering." where they celebrate their shared culture of wrestling, drinking Faygo soda, painting their faces, and listening to horrible, horrible, horrible music. </item>
+        <item>A fan of the Insane Clown Posse. These individuals gather in the woods each year for an annual \"Gathering.\" where they celebrate their shared culture of wrestling, drinking Faygo soda, painting their faces, and listening to horrible, horrible, horrible music. </item>
         <item>ET CETERA</item>
         <item>3</item>
     </string-array>
@@ -1826,13 +1826,13 @@
     </string-array>
     <string-array name="card304">
         <item>A Cyberbully</item>
-        <item>A person who uses social media to launch personal attacks, rumors. or embarrassing photos or videos. Victims have been known to take their own life. Rebecca Black claims to have been a victim after receiving many hateful comments on the YouTube page for her song \"Friday." </item>
+        <item>A person who uses social media to launch personal attacks, rumors. or embarrassing photos or videos. Victims have been known to take their own life. Rebecca Black claims to have been a victim after receiving many hateful comments on the YouTube page for her song \"Friday.\" </item>
         <item>ET CETERA</item>
         <item>3</item>
     </string-array>
     <string-array name="card305">
         <item>A Doomsday Prepper</item>
-        <item>The subject of a reality TV show, these individuals plan for their survival following the breakdown of civilization. They likely have a cache of weapons, canned goods for making \"bunker stew." and a belief that drinking one’s own purified urine is not that big of a deal. </item>
+        <item>The subject of a reality TV show, these individuals plan for their survival following the breakdown of civilization. They likely have a cache of weapons, canned goods for making \"bunker stew.\" and a belief that drinking one’s own purified urine is not that big of a deal. </item>
         <item>ET CETERA</item>
         <item>3</item>
     </string-array>
@@ -1844,7 +1844,7 @@
     </string-array>
     <string-array name="card307">
         <item>Werner Herzog</item>
-        <item>A German director, whose films often feature his own philosophical narration ("I believe the common denominator of the universe is not harmony. but chaos, hostility, and murder.“) He was once shot with an air rifle during an interview and continued as if nothing happened. </item>
+        <item>A German director, whose films often feature his own philosophical narration (\"I believe the common denominator of the universe is not harmony. but chaos, hostility, and murder.\") He was once shot with an air rifle during an interview and continued as if nothing happened. </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -1856,7 +1856,7 @@
     </string-array>
     <string-array name="card309">
         <item>Marie Antoinette</item>
-        <item>The Queen of France, who was guillotined during the French Revolution. Her last words were \"Pardon me sir, I meant not to do it.” after stepping on her executioner\'s foot. There is no evidence that she spoke the phrase most associated with her, \"Let them eat cake." </item>
+        <item>The Queen of France, who was guillotined during the French Revolution. Her last words were \"Pardon me sir, I meant not to do it.\" after stepping on her executioner\'s foot. There is no evidence that she spoke the phrase most associated with her, \"Let them eat cake.\" </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
@@ -1868,7 +1868,7 @@
     </string-array>
     <string-array name="card311">
         <item>Right Said Fred</item>
-        <item>A London—based band formed by the Fairbrassin brothers in 1989, who are famous for their hit, \"I‘m Too Sexy." which pokes fun at the fashion industry with such notable lines as \"Yeah on the catwalk, yeah / I shake my little tush on the catwalk." </item>
+        <item>A London—based band formed by the Fairbrassin brothers in 1989, who are famous for their hit, \"I‘m Too Sexy.\" which pokes fun at the fashion industry with such notable lines as \"Yeah on the catwalk, yeah / I shake my little tush on the catwalk.\" </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -1904,7 +1904,7 @@
     </string-array>
     <string-array name="card317">
         <item>General Butt Naked</item>
-        <item>A former leader for the Liberian warlord Roosevelt Johnson. He claimed that before battle \"we would get drunk and drugged up, sacrifice a teenager, drink the blood. then strip down to our shoes and go into battle wearing colorful wigs and carrying imaginary purses." </item>
+        <item>A former leader for the Liberian warlord Roosevelt Johnson. He claimed that before battle \"we would get drunk and drugged up, sacrifice a teenager, drink the blood. then strip down to our shoes and go into battle wearing colorful wigs and carrying imaginary purses.\" </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -1922,13 +1922,13 @@
     </string-array>
     <string-array name="card320">
         <item>Nyan Cat</item>
-        <item>A cartoon feline with the body of a Pop-Tart. It is depicted flying in space with a rainbow trail, accom- panied by an upbeat song with the Japanese word for \"Meow" as its lyrics. A popular variation has users syncing the video to Slipknot‘s song “Psychosocial." </item>
+        <item>A cartoon feline with the body of a Pop-Tart. It is depicted flying in space with a rainbow trail, accom- panied by an upbeat song with the Japanese word for \"Meow\" as its lyrics. A popular variation has users syncing the video to Slipknot‘s song \"Psychosocial.\" </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
     <string-array name="card321">
         <item>A Manic Pixie Dream Girl</item>
-        <item>Described by Nathan Rabin as a \"bubbly. shallow creature that exists solely in the imaginations of sensitive writer—directors to teach young men to embrace life and its infinite mysteries." Examples include Natalie Portman in Garden State and Zooey Deschanel in everything. </item>
+        <item>Described by Nathan Rabin as a \"bubbly. shallow creature that exists solely in the imaginations of sensitive writer—directors to teach young men to embrace life and its infinite mysteries.\" Examples include Natalie Portman in Garden State and Zooey Deschanel in everything. </item>
         <item>ET CETERA</item>
         <item>3</item>
     </string-array>
@@ -1940,7 +1940,7 @@
     </string-array>
     <string-array name="card323">
         <item>Pharell’s hat</item>
-        <item>The infamous head covering of the rapper, producer, and guest performer on \"Blurred Lines.” Created for Vivienne Westwood\'s 1982–1983 collection, it was inspired by \"Peruvian women wearing bowler hats, full skirts, dancing with their babies tied on their back." </item>
+        <item>The infamous head covering of the rapper, producer, and guest performer on \"Blurred Lines.\" Created for Vivienne Westwood\'s 1982–1983 collection, it was inspired by \"Peruvian women wearing bowler hats, full skirts, dancing with their babies tied on their back.\" </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -1964,19 +1964,19 @@
     </string-array>
     <string-array name="card327">
         <item>A Nigerian Prince</item>
-        <item>A West African practitioner of a \"419 scam," otherwise known as advance—fee fraud. Victims receive email messages from a person claiming to be displaced royalty who needs their help transferring funds out of their country in exchange for future payment. </item>
+        <item>A West African practitioner of a \"419 scam\", otherwise known as advance—fee fraud. Victims receive email messages from a person claiming to be displaced royalty who needs their help transferring funds out of their country in exchange for future payment. </item>
         <item>ET CETERA</item>
         <item>3</item>
     </string-array>
     <string-array name="card328">
         <item>MySpace Tom</item>
-        <item>Cofounder of the world‘s most popular social networking site— before Facebook. He became instantly recognizable because all users who joined the site would automatically \"friend" him. He sold the site for $580M to Rupert Murdoch\'s News Corporation. </item>
+        <item>Cofounder of the world‘s most popular social networking site— before Facebook. He became instantly recognizable because all users who joined the site would automatically \"friend\" him. He sold the site for $580M to Rupert Murdoch\'s News Corporation. </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
     <string-array name="card329">
         <item>Sinéad O’Connor</item>
-        <item>An Irish musician who sought controversy on many occasions, most famously on a 1992 episode of SNL. where she protested the Catholic church‘s sexual abuse scandal by tearing up a photo of Pope John Paul II and saying \"Fight the real enemy." </item>
+        <item>An Irish musician who sought controversy on many occasions, most famously on a 1992 episode of SNL. where she protested the Catholic church‘s sexual abuse scandal by tearing up a photo of Pope John Paul II and saying \"Fight the real enemy.\" </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -1994,13 +1994,13 @@
     </string-array>
     <string-array name="card332">
         <item>David After Dentist</item>
-        <item>The 7-year—old star of a YouTube video where he deals with the effects of anesthesia. The child asks of his amused clad. \"Is this real life“ and fearfully demands to know whether it‘s \"going to be forever“ after observing that he feels funny and that his father has four eyes. </item>
+        <item>The 7-year—old star of a YouTube video where he deals with the effects of anesthesia. The child asks of his amused clad. \"Is this real life\" and fearfully demands to know whether it‘s \"going to be forever\" after observing that he feels funny and that his father has four eyes. </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
     <string-array name="card333">
         <item>Steve Irwin, the Crocodile Hunter</item>
-        <item>An Australian conservationist and media personality known for his khaki shorts, accent, and trademark expression \"Crikey." He was killed in 2006 by a stingray striking him in his lungs and heart with its barb during the filming of a documentary titled Ocean‘s Deadliest. </item>
+        <item>An Australian conservationist and media personality known for his khaki shorts, accent, and trademark expression \"Crikey.\" He was killed in 2006 by a stingray striking him in his lungs and heart with its barb during the filming of a documentary titled Ocean‘s Deadliest. </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -2036,7 +2036,7 @@
     </string-array>
     <string-array name="card339">
         <item>Keyboard Cat</item>
-        <item>The internet moniker of Fatso. a feline wearing a blue shirt and being manipulated to look like she was playing an instrument. The performance dates back to 1984, meaning that while she is long-dead, she continues to “play off" millions. </item>
+        <item>The internet moniker of Fatso. a feline wearing a blue shirt and being manipulated to look like she was playing an instrument. The performance dates back to 1984, meaning that while she is long-dead, she continues to \"play off\" millions. </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -2096,13 +2096,13 @@
     </string-array>
     <string-array name="card349">
         <item>Nicolas Cage</item>
-        <item>An actor known for his range, prolific work ethic, and self described \"Nouveau Shamanic” acting style. Appearing in such films as Moonstruck, Adaptation. and Bad Lieutenant: Port of Call New Orleans, he is known for his manic. non-naturalistic performances. </item>
+        <item>An actor known for his range, prolific work ethic, and self described \"Nouveau Shamanic\" acting style. Appearing in such films as Moonstruck, Adaptation. and Bad Lieutenant: Port of Call New Orleans, he is known for his manic. non-naturalistic performances. </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
     <string-array name="card350">
         <item>Commander William T. Riker</item>
-        <item>The Enterprise\'s first officer on Star Trek: The Next Generation. He is referred to as \"Number One" by Captain Picard and often sits down by whipping one leg over the back of a chair. An unofficial Twitter account documents his perverted Google search history. </item>
+        <item>The Enterprise\'s first officer on Star Trek: The Next Generation. He is referred to as \"Number One\" by Captain Picard and often sits down by whipping one leg over the back of a chair. An unofficial Twitter account documents his perverted Google search history. </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
@@ -2120,7 +2120,7 @@
     </string-array>
     <string-array name="card353">
         <item>Quetzalcoatl</item>
-        <item>An ancient Mesoamerican god and flying reptile whose name means \"feathered serpent." It has been claimed since the 16th century that Aztec leader Montezuma II believed the appearance of Spanish conquis- tador Hernan Cortes signaled his return. </item>
+        <item>An ancient Mesoamerican god and flying reptile whose name means \"feathered serpent.\" It has been claimed since the 16th century that Aztec leader Montezuma II believed the appearance of Spanish conquis- tador Hernan Cortes signaled his return. </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
@@ -2144,7 +2144,7 @@
     </string-array>
     <string-array name="card357">
         <item>Carlton Banks</item>
-        <item>The Fresh Prince of Bel-Air\'s cousin and Uncle Phil’s heir. Played by Alfonso Ribeiro. he is depicted as a preppy young Republican. who is probably best known for his spazzy dance to Tom Jones\'s song \"It\'s Not Unusual" and being slapped on the back of the head. </item>
+        <item>The Fresh Prince of Bel-Air\'s cousin and Uncle Phil’s heir. Played by Alfonso Ribeiro. he is depicted as a preppy young Republican. who is probably best known for his spazzy dance to Tom Jones\'s song \"It\'s Not Unusual\" and being slapped on the back of the head. </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
@@ -2156,7 +2156,7 @@
     </string-array>
     <string-array name="card359">
         <item>Balki Bartokomous</item>
-        <item>A character from the sitcom Perfect Strangers. He is a rustic from the island of Mypos. who Cousin Larry acclimates to big city Chicago. Features of the character include celebrating with the \"dance of joy" and exclaiming \"Don‘t be ridiculous" when it is he who is being ridiculous. </item>
+        <item>A character from the sitcom Perfect Strangers. He is a rustic from the island of Mypos. who Cousin Larry acclimates to big city Chicago. Features of the character include celebrating with the \"dance of joy\" and exclaiming \"Don‘t be ridiculous\" when it is he who is being ridiculous. </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
@@ -2174,7 +2174,7 @@
     </string-array>
     <string-array name="card362">
         <item>Greedo</item>
-        <item>A bounty hunter from the Star Wars franchise. In the original 1977 version of his confrontation with Han Solo at Chalmun‘s Spaceport Cantina. Han shoots and kills him before he fires a shot. In the film‘s rerelease, he takes the first shot and misses. leading to the meme \"Han shot first.” </item>
+        <item>A bounty hunter from the Star Wars franchise. In the original 1977 version of his confrontation with Han Solo at Chalmun‘s Spaceport Cantina. Han shoots and kills him before he fires a shot. In the film‘s rerelease, he takes the first shot and misses. leading to the meme \"Han shot first.\" </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
@@ -2198,25 +2198,25 @@
     </string-array>
     <string-array name="card366">
         <item>The astronaut who drove across the country wearing space diapers to kidnap her boyfriend</item>
-        <item>A NASA employee who traveled from Houston to Orlando carrying, according to her wiki, \"Iatex gloves. a black wig, BB pistol. pepper spray, a tan trench coat. 2-pound drilling hammer, rubber tubing, and plastic garbage bags." She denies wearing the undergarments in question. </item>
+        <item>A NASA employee who traveled from Houston to Orlando carrying, according to her wiki, \"Iatex gloves. a black wig, BB pistol. pepper spray, a tan trench coat. 2-pound drilling hammer, rubber tubing, and plastic garbage bags.\" She denies wearing the undergarments in question. </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
     <string-array name="card367">
         <item>Colonel Angus</item>
-        <item>A character from an SNL skit played by Christopher Walken. The humor is derived from the character\'s gag name that refers to performing oral sex on a woman, e.g. \"Sometimes [he] just rubs you the wrong way" and his stated preference for the Deep South. </item>
+        <item>A character from an SNL skit played by Christopher Walken. The humor is derived from the character\'s gag name that refers to performing oral sex on a woman, e.g. \"Sometimes [he] just rubs you the wrong way\" and his stated preference for the Deep South. </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
     <string-array name="card368">
         <item>Chris Hadfield</item>
-        <item>A Canadian astronaut who became the face of NASA while command- ing the ISS in 2013. He has a vast social media following, one of the most popular Reddit AMAs of all time, and a hit YouTube video of him covering Bowie‘s \"Space Oddity" while literally in space. </item>
+        <item>A Canadian astronaut who became the face of NASA while command- ing the ISS in 2013. He has a vast social media following, one of the most popular Reddit AMAs of all time, and a hit YouTube video of him covering Bowie‘s \"Space Oddity\" while literally in space. </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
     <string-array name="card369">
         <item>Admiral Ackbar</item>
-        <item>A fish-like humanoid who command- ed the Rebel Alliance‘s fleet in Star Wars: Episode VI. He planned a sneak attack on the second Death Star as it orbited the forest moon of Endor. Imperial forces knew of the impending assault. leading to his iconic line \"It’s a trap!“ </item>
+        <item>A fish-like humanoid who command- ed the Rebel Alliance‘s fleet in Star Wars: Episode VI. He planned a sneak attack on the second Death Star as it orbited the forest moon of Endor. Imperial forces knew of the impending assault. leading to his iconic line \"It’s a trap!\" </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
@@ -2228,7 +2228,7 @@
     </string-array>
     <string-array name="card371">
         <item>Florida Man</item>
-        <item>The combined exploits of folks from the Sunshine State, collected in a popular Twitter profile. Examples include someone who \"Disguises Himself As \'The Sun,’ Steals Logo Towel“ and someone who “Acciden- tally Shoots Himself in the Head While Celebrating New Year\'s Eve." </item>
+        <item>The combined exploits of folks from the Sunshine State, collected in a popular Twitter profile. Examples include someone who \"Disguises Himself As \'The Sun,’ Steals Logo Towel\" and someone who \"Acciden- tally Shoots Himself in the Head While Celebrating New Year\'s Eve.\" </item>
         <item>ET CETERA</item>
         <item>3</item>
     </string-array>
@@ -2252,7 +2252,7 @@
     </string-array>
     <string-array name="card375">
         <item>Hester Prynne</item>
-        <item>The protagonist of Nathaniel Hawthorne\'s The Scarlet Letter. Set in 17th century New England. she has an affair and conceives a child with the minister of her church. After being found guilty of adultery. she is forced to wear a scarlet \"A" on her dress as a signal of shame. </item>
+        <item>The protagonist of Nathaniel Hawthorne\'s The Scarlet Letter. Set in 17th century New England. she has an affair and conceives a child with the minister of her church. After being found guilty of adultery. she is forced to wear a scarlet \"A\" on her dress as a signal of shame. </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
@@ -2276,7 +2276,7 @@
     </string-array>
     <string-array name="card379">
         <item>A Highlander</item>
-        <item>An immortal, broadsword-wielding character from an 805 action film. The film\'s tagline, \"There can be only one." refers to a contest to gain each other’s power and knowledge through defeating and then beheading their rivals in a duel—a process referred to as Guickening. </item>
+        <item>An immortal, broadsword-wielding character from an 805 action film. The film\'s tagline, \"There can be only one.\" refers to a contest to gain each other’s power and knowledge through defeating and then beheading their rivals in a duel—a process referred to as Guickening. </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
@@ -2294,19 +2294,19 @@
     </string-array>
     <string-array name="card382">
         <item>Dr. Zaius</item>
-        <item>An orangutan from the Planet of the Apes. Living in the East Coast Ape City during the 40th century, he paradoxically serves as Minister of Science and Chief Defender of the Faith. He was immortalized in a song from The Simpsons that parodies Falco’s \"Rock Me Amadeus." </item>
+        <item>An orangutan from the Planet of the Apes. Living in the East Coast Ape City during the 40th century, he paradoxically serves as Minister of Science and Chief Defender of the Faith. He was immortalized in a song from The Simpsons that parodies Falco’s \"Rock Me Amadeus.\" </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
     <string-array name="card383">
         <item>Marcel Marceau</item>
-        <item>The most famous mime in history. who frequently performed under the name Bip the Clown. He referred to his craft as \"the art of silence,“ creating many of the quintessential mime performances, including Walking in the Wind and Trapped in a Box. </item>
+        <item>The most famous mime in history. who frequently performed under the name Bip the Clown. He referred to his craft as \"the art of silence\", creating many of the quintessential mime performances, including Walking in the Wind and Trapped in a Box. </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
     <string-array name="card384">
         <item>A Honey Badger</item>
-        <item>An animal, native to South Africa and related to the weasel. made popular by a YouTube video narrated by \"Randall." This animal is now almost always described as \"Badass" and \"Cra-zy." Furthermore, it’s often noted that this animal don’t care or really doesn‘t give a shit. </item>
+        <item>An animal, native to South Africa and related to the weasel. made popular by a YouTube video narrated by \"Randall.\" This animal is now almost always described as \"Badass\" and \"Cra-zy.\" Furthermore, it’s often noted that this animal don’t care or really doesn‘t give a shit. </item>
         <item>CARD BY STEFANIE MARAZZI</item>
         <item>3</item>
     </string-array>
@@ -2318,24 +2318,24 @@
     </string-array>
     <string-array name="card386">
         <item>Howard Hughes</item>
-        <item>A business magnate and aviator, who set world air speed records and created the failed \"Spruce Goose." He suffered from extreme germophobia and 0CD. leading to rumors of him refusing to cut his hair, wearing tissue boxes as shoes, and storing his urine in jars. </item>
+        <item>A business magnate and aviator, who set world air speed records and created the failed \"Spruce Goose.\" He suffered from extreme germophobia and 0CD. leading to rumors of him refusing to cut his hair, wearing tissue boxes as shoes, and storing his urine in jars. </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
     <string-array name="card387">
         <item>Ham</item>
-        <item>One of Noah’s sons from the Hebrew Bible, who was allegedly cursed in the Book of Genesis for seeing \"the nakedness of his father” after Noah had passed out drunk in a tent. Because his name translates to black or burnt, this curse was later used to explain dark skin pigmentation. </item>
+        <item>One of Noah’s sons from the Hebrew Bible, who was allegedly cursed in the Book of Genesis for seeing \"the nakedness of his father\" after Noah had passed out drunk in a tent. Because his name translates to black or burnt, this curse was later used to explain dark skin pigmentation. </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
     <string-array name="card388">
         <item>Brian Boitano</item>
-        <item>A figure skater who won Olympic gold in 1988, but is perhaps now most famous as a semi-recurring character in the South Park franchise. In their feature film, the boys parody him as inspirational figure with a song that references \"What Would Jesus Do?" </item>
+        <item>A figure skater who won Olympic gold in 1988, but is perhaps now most famous as a semi-recurring character in the South Park franchise. In their feature film, the boys parody him as inspirational figure with a song that references \"What Would Jesus Do?\" </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
     <string-array name="card389">
-        <item>Lisa “Left Eye” Lopes</item>
+        <item>Lisa \"Left Eye\" Lopes</item>
         <item>A member of TLC who died in a car crash days after her chauffeur killed a boy walking on the side of the road. She wore glasses with a condom covering one of the lenses, and burned down her own mansion by setting fire to her abusive boyfriend\'s shoes. </item>
         <item>CELEBRITY</item>
         <item>3</item>
@@ -2348,7 +2348,7 @@
     </string-array>
     <string-array name="card391">
         <item>Archimedes</item>
-        <item>An Ancient Greek scientist who is most famous for determining the volume of objects with irregular shapes. The legend is that he solved the problem after noticing the level of the water change during a bath. He sprung out naked and took to the streets shouting \"Eureka!" </item>
+        <item>An Ancient Greek scientist who is most famous for determining the volume of objects with irregular shapes. The legend is that he solved the problem after noticing the level of the water change during a bath. He sprung out naked and took to the streets shouting \"Eureka!\" </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
@@ -2366,13 +2366,13 @@
     </string-array>
     <string-array name="card394">
         <item>Carl Sagan</item>
-        <item>An astronomer and public intellectu- al best known for hosting the PBS series Cosmos. He is easily identified by his strange vocal delivery of words like \"billions.“ He was also responsible for curating the Pioneer plaque and the Golden Record for the Voyager spacecraft. </item>
+        <item>An astronomer and public intellectu- al best known for hosting the PBS series Cosmos. He is easily identified by his strange vocal delivery of words like \"billions.\" He was also responsible for curating the Pioneer plaque and the Golden Record for the Voyager spacecraft. </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
     <string-array name="card395">
         <item>Jacob the Jeweler</item>
-        <item>Purveyor of bling to the rich and famous. He supplied Kanye West\'s Jesus Piece—and was asked by Kanye, in \"Diamonds from Sierra Leone" not to lie about the source of his diamonds. He was sentenced to prison for his connection to the Detroit-based Black Mafia Family. </item>
+        <item>Purveyor of bling to the rich and famous. He supplied Kanye West\'s Jesus Piece—and was asked by Kanye, in \"Diamonds from Sierra Leone\" not to lie about the source of his diamonds. He was sentenced to prison for his connection to the Detroit-based Black Mafia Family. </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -2384,13 +2384,13 @@
     </string-array>
     <string-array name="card397">
         <item>Zelda Fitzgerald</item>
-        <item>A Jazz Age novelist and wife of the author of The Great Gatsby. who described her as the \"first American Flapper." They were also one of the first celebrity couples of the 20th century, and their marriage was notorious for its alcoholism, recriminations, and instability. </item>
+        <item>A Jazz Age novelist and wife of the author of The Great Gatsby. who described her as the \"first American Flapper.\" They were also one of the first celebrity couples of the 20th century, and their marriage was notorious for its alcoholism, recriminations, and instability. </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
     <string-array name="card398">
         <item>Harriet Tubman</item>
-        <item>An escaped slave who became a prominent abolitionist and spy during the Civil War. She rescued more than 70 slaves with the help of the Underground Railroad. earning her the nickname \"Moses." Later in her life she became a prominent figure in the suffrage movement. </item>
+        <item>An escaped slave who became a prominent abolitionist and spy during the Civil War. She rescued more than 70 slaves with the help of the Underground Railroad. earning her the nickname \"Moses.\" Later in her life she became a prominent figure in the suffrage movement. </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
@@ -2408,7 +2408,7 @@
     </string-array>
     <string-array name="card401">
         <item>Uncle Ben</item>
-        <item>The actually pretty racist mascot of a top-selling rice brand. Wearing a tuxedo and bow tie, this character’s name references a term commonly used in the American South to denote older male servants. In 2007, the company \"promoted“ the character to chairman of the board. </item>
+        <item>The actually pretty racist mascot of a top-selling rice brand. Wearing a tuxedo and bow tie, this character’s name references a term commonly used in the American South to denote older male servants. In 2007, the company \"promoted\" the character to chairman of the board. </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
@@ -2444,7 +2444,7 @@
     </string-array>
     <string-array name="card407">
         <item>A Bear</item>
-        <item>In gay culture, a large, hairy. and often hyper—masculine man. It was likely first popularized as a term in the 1979 article \"Who‘s Who in the Zoo?“ which categorized gay men as one of 7 types of animals. Subcategories of this include cubs, ewoks, and grizzlies. </item>
+        <item>In gay culture, a large, hairy. and often hyper—masculine man. It was likely first popularized as a term in the 1979 article \"Who‘s Who in the Zoo?\" which categorized gay men as one of 7 types of animals. Subcategories of this include cubs, ewoks, and grizzlies. </item>
         <item>ET CETERA</item>
         <item>3</item>
     </string-array>
@@ -2456,19 +2456,19 @@
     </string-array>
     <string-array name="card409">
         <item>Clarence Thomas</item>
-        <item>A Supreme Court Justice who is known for never questioning appellants during oral arguments. His appointment was clouded by allegations of his sexual harassment. such as asking \"Who has put pubic hair on my Coke?" and referencing the porn star Long Dong Silver. </item>
+        <item>A Supreme Court Justice who is known for never questioning appellants during oral arguments. His appointment was clouded by allegations of his sexual harassment. such as asking \"Who has put pubic hair on my Coke?\" and referencing the porn star Long Dong Silver. </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
     <string-array name="card410">
         <item>André the Giant</item>
-        <item>A 7\'4" 520 lb. Frenchman who was the first wrestler inducted into the WWE Hall of Fame. He played the rhyming Turkish wrestler Fezzik in The Princess Bride. His ability to consume alcohol was so legendary that doctors used it to baseline how much anesthesia to administer him. </item>
+        <item>A 7\'4\" 520 lb. Frenchman who was the first wrestler inducted into the WWE Hall of Fame. He played the rhyming Turkish wrestler Fezzik in The Princess Bride. His ability to consume alcohol was so legendary that doctors used it to baseline how much anesthesia to administer him. </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
     <string-array name="card411">
         <item>Mama Cass</item>
-        <item>The stage name of Ellen Naomi Cohen, a member of the band that performed hits like \"California Dreamin" and \"Monday Monday." She struggled with obesity most of her life, and it was long rumored that she died by choking on either a ham sandwich or a chicken bone. </item>
+        <item>The stage name of Ellen Naomi Cohen, a member of the band that performed hits like \"California Dreamin\" and \"Monday Monday.\" She struggled with obesity most of her life, and it was long rumored that she died by choking on either a ham sandwich or a chicken bone. </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
@@ -2480,13 +2480,13 @@
     </string-array>
     <string-array name="card413">
         <item>The Lindbergh Baby</item>
-        <item>The infant son of the first aviator to fly solo across the Atlantic. He was kidnapped in what was called the \"Crime of the Century.” The investigation lasted over two years, culminating in the execution by electric chair of Bruno Hauptmann, who maintained his innocence. </item>
+        <item>The infant son of the first aviator to fly solo across the Atlantic. He was kidnapped in what was called the \"Crime of the Century.\" The investigation lasted over two years, culminating in the execution by electric chair of Bruno Hauptmann, who maintained his innocence. </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
     <string-array name="card414">
         <item>A Mall Santa</item>
-        <item>In the weeks leading up to Christmas. shopping complexes often employ this person to play a fat, jolly, gift—giving figure. A \"grotto” is usually set up where children can pose for photographs while sitting on his lap and requesting presents. </item>
+        <item>In the weeks leading up to Christmas. shopping complexes often employ this person to play a fat, jolly, gift—giving figure. A \"grotto\" is usually set up where children can pose for photographs while sitting on his lap and requesting presents. </item>
         <item>CARD BY MATT RIX</item>
         <item>3</item>
     </string-array>
@@ -2498,13 +2498,13 @@
     </string-array>
     <string-array name="card416">
         <item>Joyce Carol Oates</item>
-        <item>An American novelist, playwright, and Princeton professor: Her works in \"In a Region of Ice” and \"A Garden of Earthly Delights” and nearly 40 other novels. Born in 1938, she still writes in longhand and her productivity and discipline are legendary among writers. </item>
+        <item>An American novelist, playwright, and Princeton professor: Her works in \"In a Region of Ice\" and \"A Garden of Earthly Delights\" and nearly 40 other novels. Born in 1938, she still writes in longhand and her productivity and discipline are legendary among writers. </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
     <string-array name="card417">
         <item>Vidal Sassoon</item>
-        <item>A hairdresser who created the iconic wedge bob cut of the 605. He parlayed his fame into an interna- tional brand of beauty products that included salons, shampoos, conditioners, and commercials featuring the tagline \"If you don’t look good. we don‘t look good." </item>
+        <item>A hairdresser who created the iconic wedge bob cut of the 605. He parlayed his fame into an interna- tional brand of beauty products that included salons, shampoos, conditioners, and commercials featuring the tagline \"If you don’t look good. we don‘t look good.\" </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
@@ -2516,19 +2516,19 @@
     </string-array>
     <string-array name="card419">
         <item>John Philip Sousa</item>
-        <item>A composer and conductor known as \"The March King." He created many marches still in use today, such as \"The Stars and Stripes Forever." He also designed a large brass instrument that wraps around the body of the musician, which he named after himself. </item>
+        <item>A composer and conductor known as \"The March King.\" He created many marches still in use today, such as \"The Stars and Stripes Forever.\" He also designed a large brass instrument that wraps around the body of the musician, which he named after himself. </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
     <string-array name="card420">
         <item>The Stay Puft Marshmallow Man</item>
-        <item>A monster from the Ghostbusters franchise made of spongy candy and wearing a sailor hat and red neckerchief as he rampages through New York. Dan Aykroyd described him as \"harmless and puff and cute, but given the right circumstances. everything can become evil.“ </item>
+        <item>A monster from the Ghostbusters franchise made of spongy candy and wearing a sailor hat and red neckerchief as he rampages through New York. Dan Aykroyd described him as \"harmless and puff and cute, but given the right circumstances. everything can become evil.\" </item>
         <item>NAME BY LOREN BRICHTER</item>
         <item>3</item>
     </string-array>
     <string-array name="card421">
         <item>Grizzly Man (Timothy Treadwell)</item>
-        <item>The eccentric subject of a Werner Herzog documentary, who lived with Alaskan bears for 13 summers and was \"in love with [his] animal friends.“ In 2003, he and his girlfriend were killed and eaten by one of the bears—the first such death in the park\'s history. </item>
+        <item>The eccentric subject of a Werner Herzog documentary, who lived with Alaskan bears for 13 summers and was \"in love with [his] animal friends.\" In 2003, he and his girlfriend were killed and eaten by one of the bears—the first such death in the park\'s history. </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -2540,7 +2540,7 @@
     </string-array>
     <string-array name="card423">
         <item>Grizzly Adams</item>
-        <item>A legendary 19th century mountain man, who was famous for fighting and capturing bears. During a \"play fight" with one of his bears. his scalp was dislodged, leaving the brain tissue permanently exposed. He died after a monkey bit into the open wound, causing an infection. </item>
+        <item>A legendary 19th century mountain man, who was famous for fighting and capturing bears. During a \"play fight\" with one of his bears. his scalp was dislodged, leaving the brain tissue permanently exposed. He died after a monkey bit into the open wound, causing an infection. </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
@@ -2564,7 +2564,7 @@
     </string-array>
     <string-array name="card427">
         <item>Johnnie Cochran</item>
-        <item>A lawyer who gained international fame for his successful defense of O.J. Simpson during his murder trial. He is often associated with the phrase \"If it doesn‘t fit. you must acquit,“ referring to the murderer’s gloves that was supposedly too small for Simpson\'s hand. </item>
+        <item>A lawyer who gained international fame for his successful defense of O.J. Simpson during his murder trial. He is often associated with the phrase \"If it doesn‘t fit. you must acquit\", referring to the murderer’s gloves that was supposedly too small for Simpson\'s hand. </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
@@ -2600,7 +2600,7 @@
     </string-array>
     <string-array name="card433">
         <item>Terri Schiavo</item>
-        <item>The subject of a prolonged legal case over whether to terminate life support. Diagnosed as being in a persistent vegetative state by her doctors. her husband and parents battled over whether to remove her feeding tube, despite her having signed a \"do not resuscitate" order. </item>
+        <item>The subject of a prolonged legal case over whether to terminate life support. Diagnosed as being in a persistent vegetative state by her doctors. her husband and parents battled over whether to remove her feeding tube, despite her having signed a \"do not resuscitate\" order. </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -2624,7 +2624,7 @@
     </string-array>
     <string-array name="card437">
         <item>R. Kelly</item>
-        <item>An R&amp;amp;B musician who recorded \"I Believe I Can Fly” and \"Trapped in the Closet.“ In 2002, a video leaked of him allegedly urinating on an underage girl. according a 21-count indictment. He was found not guilty, though many still believe him to be a sexual predator: </item>
+        <item>An R&amp;amp;B musician who recorded \"I Believe I Can Fly\" and \"Trapped in the Closet.\" In 2002, a video leaked of him allegedly urinating on an underage girl. according a 21-count indictment. He was found not guilty, though many still believe him to be a sexual predator: </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -2636,7 +2636,7 @@
     </string-array>
     <string-array name="card439">
         <item>The guy who threw his shoes at George W. Bush</item>
-        <item>A journalist who shouted \"This is a farewell kiss from the Iraqi people, you dog" and hurled his footwear at the 43rd US president, who narrowly avoided the projectiles by ducking under his podium. A copper statue of the footwear was erected in Tikrit to commemorate the event. </item>
+        <item>A journalist who shouted \"This is a farewell kiss from the Iraqi people, you dog\" and hurled his footwear at the 43rd US president, who narrowly avoided the projectiles by ducking under his podium. A copper statue of the footwear was erected in Tikrit to commemorate the event. </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -2654,7 +2654,7 @@
     </string-array>
     <string-array name="card442">
         <item>Area Man</item>
-        <item>A stock character in banal headlines from The Onion. He believes, for instance, that his \"Intelligence Probably Just Too lntimidating For Most Women,“ that he \"Could Eat,“ and that he is a \"Passionate Defender Of What He Imagines Constitution To Be." </item>
+        <item>A stock character in banal headlines from The Onion. He believes, for instance, that his \"Intelligence Probably Just Too lntimidating For Most Women\", that he \"Could Eat\", and that he is a \"Passionate Defender Of What He Imagines Constitution To Be.\" </item>
         <item>ET CETERA</item>
         <item>3</item>
     </string-array>
@@ -2678,7 +2678,7 @@
     </string-array>
     <string-array name="card446">
         <item>Mr. Wizard</item>
-        <item>The eponymous host of a children’s science show, who Bill Nye credited with creating a generation of US scientists. A popular YouTube supercut shows him being \"a dick“ to kids on the show, sarcastically asking questions like \"Haven‘t you ever seen a sliced banana before?" </item>
+        <item>The eponymous host of a children’s science show, who Bill Nye credited with creating a generation of US scientists. A popular YouTube supercut shows him being \"a dick\" to kids on the show, sarcastically asking questions like \"Haven‘t you ever seen a sliced banana before?\" </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
@@ -2696,19 +2696,19 @@
     </string-array>
     <string-array name="card449">
         <item>Double Rainbow Guy</item>
-        <item>The moniker of Paul \"Yosemitebear” Vasquez, a one—time MMA fighter (0–1) and YouTube star who reacts to prismatic light. noting that there are two of them and that they are \"so intense.“ As he breaks down into tears he asks \"What does this mean?" </item>
+        <item>The moniker of Paul \"Yosemitebear\" Vasquez, a one—time MMA fighter (0–1) and YouTube star who reacts to prismatic light. noting that there are two of them and that they are \"so intense.\" As he breaks down into tears he asks \"What does this mean?\" </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
     <string-array name="card450">
         <item>Kindergarten Cop</item>
-        <item>The title character from a 1990 comedy about a detective who goes undercover at an elementary school and discovers his love of teaching. Played by Arnold Schwarzenegger. the film is famous for the line \"It‘s not a tumor!" which he delivers in his thick Austrian accent. </item>
+        <item>The title character from a 1990 comedy about a detective who goes undercover at an elementary school and discovers his love of teaching. Played by Arnold Schwarzenegger. the film is famous for the line \"It‘s not a tumor!\" which he delivers in his thick Austrian accent. </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
     <string-array name="card451">
         <item>Jack Kevorkian</item>
-        <item>A doctor and euthanasia activist who was nicknamed \"Dr. Death" during his trial for second-degree murder of terminally ill patients who sought his assistance. He was also a jazz flautist and composer, and released the album A Very Still Life on the label Lucid Subjazz in 1997. </item>
+        <item>A doctor and euthanasia activist who was nicknamed \"Dr. Death\" during his trial for second-degree murder of terminally ill patients who sought his assistance. He was also a jazz flautist and composer, and released the album A Very Still Life on the label Lucid Subjazz in 1997. </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -2726,7 +2726,7 @@
     </string-array>
     <string-array name="card454">
         <item>Deepak Chopra</item>
-        <item>A teacher of alternative medicine and Transcendental Meditation, who mixes a vague understanding of physics with more standard new age practices. Arguably the world‘s most famous guru, he has been referred to as \"the David Beckham of personal/spiritual growth." </item>
+        <item>A teacher of alternative medicine and Transcendental Meditation, who mixes a vague understanding of physics with more standard new age practices. Arguably the world‘s most famous guru, he has been referred to as \"the David Beckham of personal/spiritual growth.\" </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -2738,7 +2738,7 @@
     </string-array>
     <string-array name="card456">
         <item>David Caruso</item>
-        <item>An actor best known as Lieutenant Horatio Caine on the CBS series CSI: Miami. At the beginning of each show, he delivers a quippy one—liner while simultaneously putting on his trademark sunglasses before the show cuts to its theme song, \"Won’t Get Fooled Again." </item>
+        <item>An actor best known as Lieutenant Horatio Caine on the CBS series CSI: Miami. At the beginning of each show, he delivers a quippy one—liner while simultaneously putting on his trademark sunglasses before the show cuts to its theme song, \"Won’t Get Fooled Again.\" </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -2750,7 +2750,7 @@
     </string-array>
     <string-array name="card458">
         <item>8 Maids-a-Milking</item>
-        <item>An octet that appears in the song \"The Twelve Days of Christmas," an English Christmas carol that lists a series of gifts given by \"my true love" on each of those days. These individuals, who tend to dairy cows. are first presented on the eighth day of Christmas. </item>
+        <item>An octet that appears in the song \"The Twelve Days of Christmas\", an English Christmas carol that lists a series of gifts given by \"my true love\" on each of those days. These individuals, who tend to dairy cows. are first presented on the eighth day of Christmas. </item>
         <item>ET CETERA</item>
         <item>3</item>
     </string-array>
@@ -2762,7 +2762,7 @@
     </string-array>
     <string-array name="card460">
         <item>Wilford Brimley</item>
-        <item>An actor known for his walrus-like white mustache and pronunciation of the word \"Diabetes.” He played an old grump in Cocoon and several other films in the 805. He was also a spokesperson for a range of old-people products, like Quaker Oats and Diabeetus supplies. </item>
+        <item>An actor known for his walrus-like white mustache and pronunciation of the word \"Diabetes.\" He played an old grump in Cocoon and several other films in the 805. He was also a spokesperson for a range of old-people products, like Quaker Oats and Diabeetus supplies. </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -2774,7 +2774,7 @@
     </string-array>
     <string-array name="card462">
         <item>Feminist Ryan Gosling</item>
-        <item>A meme of the actor who played Noah in The Notebook and stomped on a man‘s head until it exploded in Drive, showing him in deep thought with captions of \"Hey girl," followed by empowering yet seductive quips like \"I stood with Wendy Davis, but I’d lie down anywhere with you.“ </item>
+        <item>A meme of the actor who played Noah in The Notebook and stomped on a man‘s head until it exploded in Drive, showing him in deep thought with captions of \"Hey girl\", followed by empowering yet seductive quips like \"I stood with Wendy Davis, but I’d lie down anywhere with you.\" </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -2786,7 +2786,7 @@
     </string-array>
     <string-array name="card464">
         <item>Chris Farley</item>
-        <item>An overweight comedian known for his iconic roles on TV and film. He portrayed a guy who \"lives in a van down by the river," a \"fat guy in a little coat," and sometimes just a guy who falls down and breaks things. He died of a cocaine and morphine overdose at 33. </item>
+        <item>An overweight comedian known for his iconic roles on TV and film. He portrayed a guy who \"lives in a van down by the river\", a \"fat guy in a little coat\", and sometimes just a guy who falls down and breaks things. He died of a cocaine and morphine overdose at 33. </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
@@ -2810,25 +2810,25 @@
     </string-array>
     <string-array name="card468">
         <item>Lil Bub</item>
-        <item>A cat celebrity known for her \"perma-kitten" appearance, whose tongue hangs out because of a short lower jaw and toothlessness. Her appetite is unaffected. Her owner, Mike. studied reiki to care for her and calls her \"a fantastic waddler." </item>
+        <item>A cat celebrity known for her \"perma-kitten\" appearance, whose tongue hangs out because of a short lower jaw and toothlessness. Her appetite is unaffected. Her owner, Mike. studied reiki to care for her and calls her \"a fantastic waddler\". </item>
         <item>CELEBRITY</item>
         <item>3</item>
     </string-array>
     <string-array name="card469">
         <item>Xena, Warrior Princess</item>
-        <item>The title character of the cult classic TV show starring New Zealand actor Lucy Lawless. The show was a spinoff of Hercules: The Legendary Journeys and featured her weekly adventures and pursuit of the “greater good" in a mythological version of Ancient Greece. </item>
+        <item>The title character of the cult classic TV show starring New Zealand actor Lucy Lawless. The show was a spinoff of Hercules: The Legendary Journeys and featured her weekly adventures and pursuit of the \"greater good\" in a mythological version of Ancient Greece. </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
     <string-array name="card470">
         <item>Ruth Bader Ginsburg</item>
-        <item>A Supreme Court Justice known for her advocacy for women’s rights and collection of jabots, a lace neck ruffle. She has a fervid online following. with tumblrs dedicated to images of her with captions such as \"Notorious“ and “All them fives need to listen when a ten is talking." </item>
+        <item>A Supreme Court Justice known for her advocacy for women’s rights and collection of jabots, a lace neck ruffle. She has a fervid online following. with tumblrs dedicated to images of her with captions such as \"Notorious\" and \"All them fives need to listen when a ten is talking\". </item>
         <item>HISTORICAL FIGURE</item>
         <item>3</item>
     </string-array>
     <string-array name="card471">
         <item>Grimace</item>
-        <item>Initially a villain in the McDonaldland universe. this purple monster was retconned as a loveable hero. He also appears in a meme featuring a crudely drawn version posing seductively and asking Ronald McDonald if he wants some \"McNuggies." </item>
+        <item>Initially a villain in the McDonaldland universe. this purple monster was retconned as a loveable hero. He also appears in a meme featuring a crudely drawn version posing seductively and asking Ronald McDonald if he wants some \"McNuggies\". </item>
         <item>FICTIONAL CHARACTER</item>
         <item>3</item>
     </string-array>
