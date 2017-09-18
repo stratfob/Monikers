@@ -21,4 +21,35 @@
     <string name="ready">Ready</string>
     <string name="waitingForOtherPlayers">Waiting for other players...</string>
     <string name="allPlayersReady">All players are ready!</string>
+    <string name="rules0">8 cards are dealt to each person. Everyone secretly
+chooses 5 that they like. The cards people
+chose are shuffled into one deck, which will be used by both
+teams for the entire game.</string>
+    <string name="rules1">A person from the starting team has 60 seconds to
+get their team to guess as many names as possible
+from the deck by giving clues about the person’s
+identity. There’s no limit to
+the number of guesses.</string>
+    <string name="rules2">Skipping is allowed and highly encouraged in all
+rounds. Skipped cards are reshuffled into the deck after
+each turn.</string>
+    <string name="rules3">Teams take turns giving clues. Each player takes a
+turn giving clues before any teammates repeat.
+A round ends when all cards from the deck have
+been guessed correctly. The point values from each
+card they correctly guessed are added together, then
+all the cards are shuffled back together into one deck.
+The team with the lowest score begins the next round.</string>
+    <string name="rules4">Monikers has 3 rounds. Each has a restriction on how
+players are allowed to give clues:</string>
+    <string name="rules5">ROUND 1 You can use any words, sounds, or
+gestures except the name itself, including the clue
+text on the card. If you say any part of the name, you
+have to skip that card this turn.</string>
+    <string name="rules6">ROUND 2 Use only one word, which can be
+anything except the name itself. You can repeat that
+word as many times as you like, but no sounds or
+gestures.</string>
+    <string name="rules7">ROUND 3 Just charades. No words. Sound effects
+are OK.</string>
 </resources>

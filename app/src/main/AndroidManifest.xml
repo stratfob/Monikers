@@ -21,7 +21,8 @@
         <activity android:name=".Activities.RulesActivity" />
         <activity android:name=".Activities.GameLobbyActivity" />
         <activity android:name=".Activities.ChooseCardsActivity" />
-        <activity android:name=".Activities.WaitForPlayersActivity"></activity>
+        <activity android:name=".Activities.WaitForPlayersActivity" />
+        <activity android:name=".Activities.GameActivity"></activity>
     </application>
 
 </manifest>

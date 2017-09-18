@@ -1,6 +1,7 @@
 package stratford.monikers.Activities;
 
 import android.content.Intent;
+import android.provider.ContactsContract;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -27,6 +28,7 @@ public class WaitForPlayersActivity extends AppCompatActivity {
     String passedKey;
     String myUsername;
     ArrayList<Integer> chosenCards;
+    ArrayList<Integer> newDeck;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +39,8 @@ public class WaitForPlayersActivity extends AppCompatActivity {
         passedKey = intent.getStringExtra("key");
         myUsername = intent.getStringExtra("username");
         chosenCards = intent.getIntegerArrayListExtra("chosenCards");
+        newDeck = new ArrayList<>();
+
         gameRef = database.getReference("game").child(passedKey);
         playerRef = gameRef.child("players");
         cardRef = gameRef.child("cardsInPlay");
@@ -55,17 +59,30 @@ public class WaitForPlayersActivity extends AppCompatActivity {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 boolean allReady = true;
                 for (DataSnapshot playerSnap : dataSnapshot.getChildren()) {
-                    if(!playerSnap.child("chosenCards").exists()){
+                    if(!playerSnap.child("chosenCards").exists() ||
+                            playerSnap.child("chosenCards").getChildrenCount()<5){
                         allReady = false;
                         break;
                     }
                 }
                 if(allReady){
+                    for(DataSnapshot playerSnap:dataSnapshot.getChildren()){
+                        for(DataSnapshot cardSnap:playerSnap.child("chosenCards").getChildren()){
+                            newDeck.add(Integer.parseInt(cardSnap.getValue() + ""));
+                        }
+                    }
                     TextView text = (TextView) findViewById(R.id.readyStatus);
                     text.setText(R.string.allPlayersReady);
-                    Button button = (Button) findViewById(R.id.startButton);
-                    button.setVisibility(View.VISIBLE);
                     playerRef.removeEventListener(this);
+
+                    newDeck = shuffle(newDeck);
+                    gameRef.child("cardsInPlay").removeValue();
+                    gameRef.child("cardsInPlay").setValue(newDeck);
+                    Intent intent = new Intent(WaitForPlayersActivity.this, GameActivity.class);
+                    intent.putExtra("username", myUsername);
+                    intent.putExtra("key",passedKey);
+                    intent.putExtra("isCreator", getIntent().getBooleanExtra("isCreator",false));
+                    startActivity(intent);
                 }
             }
             @Override
@@ -74,12 +91,13 @@ public class WaitForPlayersActivity extends AppCompatActivity {
         });
     }
 
-    public void onClickStart(View view){
-        if(getIntent().getBooleanExtra("isCreator",false)) {
-            Toast.makeText(this, "Heyo", Toast.LENGTH_SHORT).show();
+    public ArrayList<Integer> shuffle (ArrayList<Integer> deck){
+        for (int i = 0; i < deck.size(); i++) {
+            int temp = deck.get(i);
+            int rand = (int) Math.floor(Math.random() * deck.size());
+            deck.set(i, deck.get(rand));
+            deck.set(rand, temp);
         }
-        else{
-            Toast.makeText(this, "Only the game creator can start the game", Toast.LENGTH_SHORT).show();
-        }
+        return deck;
     }
 }
