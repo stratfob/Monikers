@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.provider.ContactsContract;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
@@ -59,7 +60,8 @@ public class GameActivity extends AppCompatActivity {
                     }
                 }
                 if(allReady){
-                    Toast.makeText(GameActivity.this, "All Players ready!", Toast.LENGTH_SHORT).show();
+                    TextView text = (TextView) findViewById(R.id.readyStatus);
+                    text.setText(R.string.allPlayersReady);
                     playerRef.removeEventListener(this);
                 }
             }

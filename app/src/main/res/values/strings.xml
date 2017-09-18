@@ -19,4 +19,6 @@
     <string name="select">Select</string>
     <string name="deselect">Deselect</string>
     <string name="ready">Ready</string>
+    <string name="waitingForOtherPlayers">Waiting for other players...</string>
+    <string name="allPlayersReady">All players are ready!</string>
 </resources>
