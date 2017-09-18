@@ -18,7 +18,7 @@ import java.util.ArrayList;
 
 import stratford.monikers.R;
 
-public class ChooseCardsAcitivity extends AppCompatActivity {
+public class ChooseCardsActivity extends AppCompatActivity {
 
     FirebaseDatabase database = FirebaseDatabase.getInstance();
     DatabaseReference gameRef;
@@ -122,7 +122,7 @@ public class ChooseCardsAcitivity extends AppCompatActivity {
         Button button = (Button) findViewById(R.id.selectButton);
         if(button.getText().equals("Select")){
             if(chosenCards.size()==5){
-                Toast.makeText(ChooseCardsAcitivity.this, "5 cards already selected", Toast.LENGTH_SHORT).show();
+                Toast.makeText(ChooseCardsActivity.this, "5 cards already selected", Toast.LENGTH_SHORT).show();
             }else{
                 button.setText(R.string.deselect);
                 chosenCards.add(myCards[cardCurrentlyViewing]);
@@ -140,13 +140,14 @@ public class ChooseCardsAcitivity extends AppCompatActivity {
 
     public void onClickReady(View view){
         if(numberOfCardsChosen!=5){
-            Toast.makeText(ChooseCardsAcitivity.this, "Please select 5 cards to continue", Toast.LENGTH_SHORT).show();
+            Toast.makeText(ChooseCardsActivity.this, "Please select 5 cards to continue", Toast.LENGTH_SHORT).show();
         }
         else{
-            Intent intent = new Intent(ChooseCardsAcitivity.this, GameActivity.class);
+            Intent intent = new Intent(ChooseCardsActivity.this, WaitForPlayersActivity.class);
 
             intent.putExtra("username",myUsername);
             intent.putExtra("key",passedKey);
+            intent.putExtra("isCreator", getIntent().getBooleanExtra("isCreator",false));
             intent.putExtra("chosenCards",chosenCards);
             startActivity(intent);
         }
@@ -162,7 +163,7 @@ public class ChooseCardsAcitivity extends AppCompatActivity {
         TextView category = (TextView) findViewById(R.id.cardCategory);
         TextView points = (TextView) findViewById(R.id.cardPoints);
 
-        int cardId = ChooseCardsAcitivity.this.getResources().getIdentifier("card" + myCards[cardCurrentlyViewing],"array",ChooseCardsAcitivity.this.getPackageName());
+        int cardId = ChooseCardsActivity.this.getResources().getIdentifier("card" + myCards[cardCurrentlyViewing],"array",ChooseCardsActivity.this.getPackageName());
         cardDetails = getResources().getStringArray(cardId);
         name.setText(cardDetails[0]);
         description.setText(cardDetails[1]);

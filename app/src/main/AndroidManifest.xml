@@ -17,11 +17,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".Activities.NewGameActivity" />
-        <activity android:name=".Activities.JoinGameAcitivity" />
+        <activity android:name=".Activities.JoinGameActivity" />
         <activity android:name=".Activities.RulesActivity" />
         <activity android:name=".Activities.GameLobbyActivity" />
-        <activity android:name=".Activities.ChooseCardsAcitivity" />
-        <activity android:name=".Activities.GameActivity"></activity>
+        <activity android:name=".Activities.ChooseCardsActivity" />
+        <activity android:name=".Activities.WaitForPlayersActivity"></activity>
     </application>
 
 </manifest>

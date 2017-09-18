@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void onClickJoin(View view) {
-        Intent intent = new Intent(this, JoinGameAcitivity.class);
+        Intent intent = new Intent(this, JoinGameActivity.class);
         startActivity(intent);
     }
     public void onClickRules(View view) {

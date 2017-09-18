@@ -82,9 +82,10 @@ public class GameLobbyActivity extends AppCompatActivity {
                 }
                 else if(dataSnapshot.child("stage").getValue().equals("choosing")){
                     thisGameRef.removeEventListener(this);
-                    Intent intent = new Intent(GameLobbyActivity.this, ChooseCardsAcitivity.class);
+                    Intent intent = new Intent(GameLobbyActivity.this, ChooseCardsActivity.class);
                     intent.putExtra("key",passedKey);
                     intent.putExtra("username",myUsername);
+                    intent.putExtra("isCreator",getIntent().getBooleanExtra("isCreator",false));
                     startActivity(intent);
                 }
                 else {
