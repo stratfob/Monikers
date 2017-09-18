@@ -14,8 +14,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import org.w3c.dom.Text;
-
 import java.util.ArrayList;
 
 import stratford.monikers.R;
@@ -31,9 +29,8 @@ public class ChooseCardsAcitivity extends AppCompatActivity {
     int[] cards;
     int[] myCards;
     String[] cardDetails;
-    ArrayList chosenCards;
+    ArrayList<Integer> chosenCards;
     int numberOfCardsChosen;
-
     int cardCurrentlyViewing;
 
     @Override
@@ -51,7 +48,7 @@ public class ChooseCardsAcitivity extends AppCompatActivity {
         myCards = new int[8];
         cardDetails = new String[4];
         cardCurrentlyViewing = 0;
-        chosenCards = new ArrayList();
+        chosenCards = new ArrayList<>();
         numberOfCardsChosen = 0;
 
         cardRef.addValueEventListener(new ValueEventListener() {
@@ -62,11 +59,10 @@ public class ChooseCardsAcitivity extends AppCompatActivity {
                     cards[j] = Integer.parseInt(card.getValue()+"");
                     j++;
                 }
+                cardRef.removeEventListener(this);
             }
-
             @Override
             public void onCancelled(DatabaseError databaseError) {
-
             }
         });
 
@@ -78,24 +74,19 @@ public class ChooseCardsAcitivity extends AppCompatActivity {
 
         // Read from the database
         playerRef.addValueEventListener(new ValueEventListener() {
-
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 int i = 0;
                 for (DataSnapshot playerSnap : dataSnapshot.getChildren()) {
-                    if(playerSnap.getKey().equals(myUsername)){
-//                        for(int j=0;j<8;j++) {
-//                            myCards[j] = cards[i * 8 + j];
-//                        }
-                        System.arraycopy(cards,i*8,myCards,0,8);
+                    if (playerSnap.getKey().equals(myUsername)) {
+                        System.arraycopy(cards, i * 8, myCards, 0, 8);
                         setCardDetails();
-//                        Toast.makeText(ChooseCardsAcitivity.this, "Card number " + myCards[i], Toast.LENGTH_SHORT).show();
                         break;
                     }
                     i++;
                 }
+                playerRef.removeEventListener(this);
             }
-
             @Override
             public void onCancelled(DatabaseError error) {
             }
@@ -106,9 +97,9 @@ public class ChooseCardsAcitivity extends AppCompatActivity {
         cardCurrentlyViewing = (cardCurrentlyViewing+1)%8;
         Button button = (Button) findViewById(R.id.selectButton);
         if(chosenCards.contains(myCards[cardCurrentlyViewing])){
-            button.setText("Deselect");
+            button.setText(R.string.deselect);
         }else{
-            button.setText("Select");
+            button.setText(R.string.select);
         }
         setCardDetails();
     }
@@ -120,9 +111,9 @@ public class ChooseCardsAcitivity extends AppCompatActivity {
         }
         Button button = (Button) findViewById(R.id.selectButton);
         if(chosenCards.contains(myCards[cardCurrentlyViewing])){
-            button.setText("Deselect");
+            button.setText(R.string.deselect);
         }else{
-            button.setText("Select");
+            button.setText(R.string.select);
         }
         setCardDetails();
     }
@@ -133,13 +124,13 @@ public class ChooseCardsAcitivity extends AppCompatActivity {
             if(chosenCards.size()==5){
                 Toast.makeText(ChooseCardsAcitivity.this, "5 cards already selected", Toast.LENGTH_SHORT).show();
             }else{
-                button.setText("Deselect");
+                button.setText(R.string.deselect);
                 chosenCards.add(myCards[cardCurrentlyViewing]);
                 numberOfCardsChosen++;
             }
         }
         else{
-            button.setText("Select");
+            button.setText(R.string.select);
             chosenCards.remove(chosenCards.indexOf(myCards[cardCurrentlyViewing]));
             numberOfCardsChosen--;
         }
@@ -147,9 +138,24 @@ public class ChooseCardsAcitivity extends AppCompatActivity {
         setCardDetails();
     }
 
+    public void onClickReady(View view){
+        if(numberOfCardsChosen!=5){
+            Toast.makeText(ChooseCardsAcitivity.this, "Please select 5 cards to continue", Toast.LENGTH_SHORT).show();
+        }
+        else{
+            Intent intent = new Intent(ChooseCardsAcitivity.this, GameActivity.class);
+
+            intent.putExtra("username",myUsername);
+            intent.putExtra("key",passedKey);
+            intent.putExtra("chosenCards",chosenCards);
+            startActivity(intent);
+        }
+    }
+
     public void setCardDetails(){
         TextView numberChosen = (TextView) findViewById(R.id.numberChosen);
-        numberChosen.setText(numberOfCardsChosen + " out of 5 chosen");
+        String s = numberOfCardsChosen + " out of 5 chosen";
+        numberChosen.setText(s);
 
         TextView name = (TextView) findViewById(R.id.cardName);
         TextView description = (TextView) findViewById(R.id.cardDescription);

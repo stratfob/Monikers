@@ -58,6 +58,7 @@ public class GameLobbyActivity extends AppCompatActivity {
 
         redTeam = new ArrayList<>();
         blueTeam = new ArrayList<>();
+
     }
 
     @Override
@@ -70,14 +71,17 @@ public class GameLobbyActivity extends AppCompatActivity {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 if(dataSnapshot.child("stage").getValue()==null && !getIntent().getBooleanExtra("isCreator",false)){
                     Toast.makeText(GameLobbyActivity.this, "Game not found", Toast.LENGTH_SHORT).show();
+                    thisGameRef.removeEventListener(this);
                     thisGameRef.removeValue();
                     finish();
                 }
                 else if(redTeam.size()>4 && blueTeam.size()>4){
                     Toast.makeText(GameLobbyActivity.this, "Game is full", Toast.LENGTH_SHORT).show();
+                    thisGameRef.removeEventListener(this);
                     finish();
                 }
                 else if(dataSnapshot.child("stage").getValue().equals("choosing")){
+                    thisGameRef.removeEventListener(this);
                     Intent intent = new Intent(GameLobbyActivity.this, ChooseCardsAcitivity.class);
                     intent.putExtra("key",passedKey);
                     intent.putExtra("username",myUsername);

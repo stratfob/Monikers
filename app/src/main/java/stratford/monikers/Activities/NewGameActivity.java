@@ -70,6 +70,7 @@ public class NewGameActivity extends AppCompatActivity {
                 while(dataSnapshot.child(key).exists()){
                     key = newKey();
                 }
+                myRef.removeEventListener(this);
             }
 
             @Override
